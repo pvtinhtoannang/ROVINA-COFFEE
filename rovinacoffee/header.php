@@ -7,7 +7,9 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<div id="page" class="site site-wrapper">
+<div id="page" class="site <?php if (is_home()) {
+    echo "site-wrapper";
+} ?>">
     <div id="content" class="site-content <?php if (is_home()) {
         echo "main";
     } ?>">

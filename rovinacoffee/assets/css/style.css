@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 section {
     overflow: hidden;
     width: 100%;
@@ -29,3 +31,125 @@ section.page3 {
     margin: 0 auto;
     overflow: hidden;
 }
+
+body {
+    font-family: "Sarabun", sans-serif;
+}
+
+.template-experience {
+    padding: 190px 0 160px 0;
+    background-color: #17181a;
+    background-image: url(../images/bg-experience.png);
+    background-position: center -300px;
+    background-repeat: no-repeat;
+    color: #FFF;
+    margin-bottom: 30px a;
+    margin-bottom-color: #FFF;
+    margin-bottom--webkit-transition: all 0.4s ease-in-out;
+    margin-bottom--moz-transition: all 0.4s ease-in-out;
+    margin-bottom--ms-transition: all 0.4s ease-in-out;
+    margin-bottom--o-transition: all 0.4s ease-in-out;
+    margin-bottom-transition: all 0.4s ease-in-out;
+}
+
+@media screen and (min-width: 1310px) {
+    .template-experience .container {
+        width: 1310px;
+    }
+}
+
+.template-experience ul.tab-experience {
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-bottom: 45px;
+}
+
+.template-experience ul.tab-experience li a {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 55px;
+}
+
+.template-experience ul.tab-experience li a:before {
+    content: "";
+    height: 3px;
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background-color: #fbdb9c;
+    left: 0;
+}
+
+.template-experience ul.tab-experience li a.active {
+    color: #fbdb9c;
+    background-color: transparent;
+}
+
+.template-experience ul.tab-experience li a.active:before {
+    width: 100%;
+}
+
+.template-experience .experience-top-item a.color-experience {
+    color: #fbdb9c;
+}
+
+.template-experience .experience-top-item .title-experience a {
+    display: block;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "UTM American Sans", sans-serif;
+    position: relative;
+    padding: 30px 0;
+}
+
+.template-experience .experience-top-item .title-experience a:before {
+    content: "";
+    width: 190px;
+    height: 6px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.template-experience .experience-top-item .experience-information, .template-experience .experience-top-item .experience-image {
+    width: calc(50% - 15px);
+}
+
+.template-experience .experience-top-item .description {
+    max-width: 490px;
+    margin: 40px 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.template-experience .experience-top-item a.viewmore {
+    font-size: 22px;
+    border: 1px solid #fbdb9c;
+    height: 65px;
+    width: 245px;
+    display: block;
+    font-weight: 300;
+    color: #fbdb9c;
+}
+
+.template-experience .experience-top-item a.viewmore:hover {
+    background-color: #fbdb9c;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
