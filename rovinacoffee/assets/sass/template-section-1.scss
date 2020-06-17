@@ -1,0 +1,68 @@
+section.sec-1 {
+    background: url(../images/sec-1-bg.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+
+    .page-container {
+        top: 35%;
+    }
+
+    .flower {
+        width: 668px;
+        height: 668px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        -webkit-animation: rotation 50s infinite linear;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .machine {
+        position: absolute;
+        right: 0;
+        bottom: -20%;
+
+        img {
+            width: auto;
+        }
+    }
+
+    .cup {
+        position: absolute;
+        left: 0;
+        bottom: -6%;
+    }
+
+    .sec-1-content {
+        text-align: center;
+
+        .title {
+            font-family: "American Sans Regular", sans-serif;
+            color: #fbdb9c;
+            text-transform: uppercase;
+            font-size: 62px;
+            letter-spacing: 5px;
+        }
+
+        .sub-title {
+
+        }
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
