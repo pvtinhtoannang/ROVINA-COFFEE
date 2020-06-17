@@ -1,0 +1,31 @@
+section {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+section .page-container {
+    position: relative;
+    top: 25%;
+    margin: 0 auto 0;
+    max-width: 950px;
+    z-index: 3;
+}
+
+section.page1 {
+    background-color: red;
+}
+
+section.page2 {
+    background-color: yellow;
+}
+
+section.page3 {
+    background-color: green;
+}
+
+.site-wrapper {
+    height: 100% !important;
+    margin: 0 auto;
+    overflow: hidden;
+}
