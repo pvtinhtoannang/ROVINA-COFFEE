@@ -29,6 +29,17 @@ section.page3 {
   margin: 0 auto;
   overflow: hidden;
 }
+@mixin textWithEllipsis($fontSize, $lineHeight, $line) {
+  font-size: $fontSize+px;
+  line-height: $lineHeight;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: ($fontSize * $lineHeight * $line)+px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body{
   font-family: 'Sarabun', sans-serif;
