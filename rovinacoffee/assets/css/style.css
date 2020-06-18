@@ -257,6 +257,9 @@ section.sec-2 {
   -o-background-size: cover;
   position: relative;
 }
+section.sec-2 .page-container {
+  top: 62%;
+}
 section.sec-2 .rec-top {
   position: absolute;
   width: 852px;
@@ -287,6 +290,48 @@ section.sec-2 .machine {
   max-height: 567px;
   margin: 0 auto;
 }
+section.sec-2 .page-container .sec-2-content {
+  text-align: center;
+}
+section.sec-2 .page-container .sec-2-content .title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 12px;
+}
+section.sec-2 .page-container .sec-2-content .sub-title {
+  font-size: 65px;
+  text-transform: uppercase;
+  font-family: "American Sans Regular", sans-serif;
+  color: #fbdb9c;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+}
+section.sec-2 .page-container .sec-2-content .description {
+  font-size: 18px;
+  color: #fff;
+  max-width: 360px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+section.sec-2 .page-container .sec-2-content .btn-wrapper {
+  margin-top: 29px;
+}
+section.sec-2 .page-container .sec-2-content .btn-wrapper a {
+  display: inline-block;
+  background-color: #fbdb9c;
+  font-size: 16px;
+  color: #2a2a2a;
+  font-weight: 300;
+  padding: 11px 21px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+section.sec-2 .page-container .sec-2-content .btn-wrapper a:hover {
+  background-color: #8D0708;
+  color: #fff;
+}
 
 section.sec-3 {
   background: url(../images/sec-3-bg.jpg) no-repeat center center;
@@ -294,6 +339,29 @@ section.sec-3 {
   -webkit-background-size: cover;
   -o-background-size: cover;
   position: relative;
+}
+section.sec-3 .page-container .sec-3-content {
+  text-align: center;
+}
+section.sec-3 .page-container .sec-3-content .title, section.sec-3 .page-container .sec-3-content .sub-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 6px 0;
+  font-weight: 700;
+}
+section.sec-3 .page-container .sec-3-content .title.color, section.sec-3 .page-container .sec-3-content .sub-title.color {
+  color: #fbdb9c;
+}
+section.sec-3 .page-container .sec-3-content .number {
+  font-size: 104px;
+  color: #fbdb9c;
+  line-height: 1.4;
+}
+section.sec-3 .page-container .sec-3-content .text {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 section.sec-4 {

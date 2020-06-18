@@ -5,6 +5,10 @@ section.sec-2 {
     -o-background-size: cover;
     position: relative;
 
+    .page-container {
+        top: 62%;
+    }
+
     .rec-top {
         position: absolute;
         width: 852px;
@@ -36,5 +40,56 @@ section.sec-2 {
         max-width: 244px;
         max-height: 567px;
         margin: 0 auto;
+    }
+
+    .page-container {
+        .sec-2-content {
+            text-align: center;
+
+            .title {
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #fff;
+                margin-bottom: 12px;
+            }
+
+            .sub-title {
+                font-size: 65px;
+                text-transform: uppercase;
+                font-family: "American Sans Regular", sans-serif;
+                color: #fbdb9c;
+                letter-spacing: 4px;
+                margin-bottom: 8px;
+            }
+
+            .description {
+                font-size: 18px;
+                color: #fff;
+                max-width: 360px;
+                margin: 0 auto;
+                line-height: 1.8;
+            }
+
+            .btn-wrapper {
+                margin-top: 29px;
+
+                a {
+                    display: inline-block;
+                    background-color: #fbdb9c;
+                    font-size: 16px;
+                    color: rgb(42, 42, 42);
+                    font-weight: 300;
+                    padding: 11px 21px;
+                    transition: all 0.3s;
+                    -webkit-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+
+                    &:hover {
+                        background-color: #8D0708;
+                        color: #fff;
+                    }
+                }
+            }
+        }
     }
 }

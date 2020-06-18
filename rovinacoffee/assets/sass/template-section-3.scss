@@ -4,4 +4,34 @@ section.sec-3 {
     -webkit-background-size: cover;
     -o-background-size: cover;
     position: relative;
+
+    .page-container {
+        .sec-3-content {
+            text-align: center;
+
+            .title, .sub-title {
+                font-size: 20px;
+                text-transform: uppercase;
+                color: #fff;
+                margin: 6px 0;
+                font-weight: 700;
+
+                &.color {
+                    color: #fbdb9c;
+                }
+            }
+
+            .number {
+                font-size: 104px;
+                color: #fbdb9c;
+                line-height: 1.4;
+            }
+
+            .text {
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #fff;
+            }
+        }
+    }
 }
