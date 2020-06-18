@@ -12,6 +12,9 @@
         <div class="sec-1-content">
             <h2 class="title">Phát triển hương vị</h2>
             <h3 class="sub-title">Nguyên bản cà phê Việt Nam</h3>
+            <div class="btn-wrapper">
+                <a href="">Bạn có biết cafe pha máy?</a>
+            </div>
         </div>
     </div>
 </section>

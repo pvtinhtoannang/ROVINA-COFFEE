@@ -12,6 +12,7 @@ function rovina_coffee_enqueue_scripts()
 
     //add styles
     wp_enqueue_style('bootstrap', get_theme_file_uri('/assets/lib/bootstrap/css/bootstrap.min.css'), array(), 'v4.0.0', 'all');
+    wp_enqueue_style('reset', get_theme_file_uri('/assets/css/reset.min.css'), array(), $theme_version, 'all');
     wp_enqueue_style('style', get_theme_file_uri('/assets/css/style.css'), array(), $theme_version, 'all');
     if(is_home()){
         wp_enqueue_style('onepage-scroll', get_theme_file_uri('/assets/lib/onepage-scroll/onepage-scroll.css'), array(), 'v1.3.1', 'all');

@@ -1,16 +1,8 @@
-<?php get_header();
+<?php
+get_header();
 get_template_part('templates/template-section-1');
-?>
-
-    <section class="page2">
-        <div class="page-container">
-
-        </div>
-    </section>
-
-    <section class="page3">
-        <div class="page-container">
-
-        </div>
-    </section>
-<?php get_footer(); ?>
+get_template_part('templates/template-section-2');
+get_template_part('templates/template-section-3');
+get_template_part('templates/template-section-4');
+get_template_part('templates/template-section-5');
+get_footer();

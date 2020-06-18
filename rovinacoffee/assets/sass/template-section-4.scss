@@ -1,0 +1,20 @@
+section.sec-4 {
+    background-color: rgb(24, 24, 24);
+    position: relative;
+
+    .flower {
+        width: 1159px;
+        height: 1159px;
+        position: absolute;
+        top: -42%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        -webkit-animation: rotation 50s infinite linear;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}

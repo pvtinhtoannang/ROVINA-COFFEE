@@ -26,6 +26,41 @@ section.page3 {
     overflow: hidden;
 }
 
+ul.onepage-pagination {
+    left: 10px;
+    right: unset;
+
+    li {
+        a {
+            &:before {
+                content: '';
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                background: #fff;
+                border: 2px solid #fff;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                transition: all .3s;
+                -webkit-transition: all .3s;
+                -o-transition: all .3s;
+            }
+
+            &.active, &:hover {
+                &:before {
+                    width: 10px;
+                    height: 10px;
+                    border: 2px solid #fbdb9c;
+                    background: none;
+                    left: unset;
+                    margin-top: unset;
+                }
+            }
+        }
+    }
+}
+
 @font-face {
     font-family: 'American Sans Regular';
     src: url('../fonts/UTM American Sans Regular.eot');
@@ -33,6 +68,7 @@ section.page3 {
     font-weight: normal;
     font-style: normal;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body {
     font-family: 'Sarabun', sans-serif;
@@ -40,3 +76,7 @@ body {
 
 @import "../sass/template-experience";
 @import "../sass/template-section-1";
+@import "../sass/template-section-2";
+@import "../sass/template-section-3";
+@import "../sass/template-section-4";
+@import "../sass/template-section-5";

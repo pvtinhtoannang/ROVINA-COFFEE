@@ -1,0 +1,40 @@
+section.sec-2 {
+    background: url(../images/sec-2-bg.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+
+    .rec-top {
+        position: absolute;
+        width: 852px;
+        height: 427px;
+        overflow: hidden;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 59px;
+        text-align: center;
+    }
+
+    .rec-bottom {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 480px;
+        text-align: center;
+    }
+
+    .machine {
+        top: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        text-align: center;
+        max-width: 244px;
+        max-height: 567px;
+        margin: 0 auto;
+    }
+}
