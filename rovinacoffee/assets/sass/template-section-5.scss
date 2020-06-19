@@ -4,4 +4,64 @@ section.sec-5 {
     -webkit-background-size: cover;
     -o-background-size: cover;
     position: relative;
+
+    .machine {
+        left: 0;
+        right: 0;
+        bottom: 40px;
+        position: absolute;
+        text-align: center;
+        max-width: 272px;
+        max-height: 777px;
+        margin: 0 auto;
+
+        img {
+            max-height: 577px;
+        }
+    }
+
+    .page-container {
+        top: 15%;
+
+        .sec-5-content {
+            text-align: center;
+
+            .title {
+                display: flex;
+                justify-content: space-between;
+                text-transform: uppercase;
+                font-family: "American Sans Regular", sans-serif;
+                color: #fbdb9c;
+                font-size: 30px;
+                letter-spacing: 1.7px;
+                max-width: 822px;
+                margin: 0 auto 70px auto;
+            }
+
+            .sub-title {
+                font-weight: 700;
+                font-size: 20px;
+                text-transform: uppercase;
+                color: #fff;
+                margin-bottom: 40px;
+            }
+
+            .btn-wrapper {
+                display: flex;
+                justify-content: center;
+
+                a {
+                    background-color: transparent;
+                    border: 1px solid #fbdb9c;
+                    color: #fbdb9c;
+                    margin: 0 10px;
+
+                    &:hover {
+                        color: #2a2a2a;
+                        background-color: #fbdb9c;
+                    }
+                }
+            }
+        }
+    }
 }

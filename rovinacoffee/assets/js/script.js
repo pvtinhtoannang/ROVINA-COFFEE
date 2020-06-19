@@ -8,10 +8,6 @@ jQuery(function ($) {
                     loop: false
                 });
             }
-            $('.counter').countUp({
-                'time': 2000,
-                'delay': 10
-            });
         });
     } catch (e) {
         // console.log(e);

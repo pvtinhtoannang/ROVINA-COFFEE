@@ -2,6 +2,18 @@ section.sec-4 {
     background-color: rgb(24, 24, 24);
     position: relative;
 
+    .machine {
+        position: absolute;
+        left: 60px;
+        bottom: 0;
+    }
+
+    .cup {
+        position: absolute;
+        right: 30px;
+        bottom: 0;
+    }
+
     .flower {
         width: 1159px;
         height: 1159px;
@@ -15,6 +27,99 @@ section.sec-4 {
 
         img {
             max-width: 100%;
+        }
+    }
+
+    .page-container {
+        top: 20%;
+
+        .sec-4-content {
+            text-align: center;
+
+            .title {
+                font-size: 30px;
+                text-transform: uppercase;
+                font-family: "American Sans Regular", sans-serif;
+                color: #fbdb9c;
+                letter-spacing: 1.6px;
+                display: inline-block;
+                margin: 0 auto 35px auto;
+                position: relative;
+
+                &:after, &:before {
+                    content: '';
+                    position: absolute;
+                    width: 80px;
+                    height: 2px;
+                    display: block;
+                    background-color: #fbdb9c;
+                    top: 50%;
+                }
+
+                &:after {
+                    left: -20px;
+                    transform: translate(-100%, 50%);
+                }
+
+                &:before {
+                    right: -20px;
+                    transform: translate(100%, 50%);
+                }
+            }
+
+            .sub-title {
+                font-size: 20px;
+                font-weight: 700;
+                color: #fff;
+                text-transform: uppercase;
+                max-width: 300px;
+                margin: 0 auto;
+                line-height: 1.5;
+            }
+
+            .rec-gr {
+                display: flex;
+                justify-content: space-between;
+                max-width: 796px;
+                margin: 45px auto 0 auto;
+
+                .rec-wrapper {
+                    border: 3px solid #fbdb9c;
+                    width: 330px;
+                    height: 330px;
+                    background-color: #fff;
+                    transform: rotate(45deg);
+                    position: relative;
+                    z-index: 1;
+                    overflow: hidden;
+                    @include responsive(768){
+                        width: 280px;
+                        height: 280px;
+                    }
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        z-index: 1;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: rgba(0, 0, 0, .3);
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transform: rotate(-45deg) scale(1.5);
+                    }
+                }
+            }
+
+            .btn-wrapper {
+                margin-top: 61px;
+            }
         }
     }
 }

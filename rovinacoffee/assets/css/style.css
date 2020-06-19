@@ -190,6 +190,12 @@ section.sec-1 .flower {
   margin: auto;
   -webkit-animation: rotation 50s infinite linear;
 }
+@media (max-width: 1440px) {
+  section.sec-1 .flower {
+    width: 550px;
+    height: 550px;
+  }
+}
 section.sec-1 .flower img {
   max-width: 100%;
 }
@@ -197,14 +203,30 @@ section.sec-1 .machine {
   position: absolute;
   right: 0;
   bottom: -20%;
+  text-align: right;
+}
+@media (max-width: 768px) {
+  section.sec-1 .machine {
+    bottom: -12%;
+  }
 }
 section.sec-1 .machine img {
   width: auto;
+}
+@media (max-width: 768px) {
+  section.sec-1 .machine img {
+    max-width: 50%;
+  }
 }
 section.sec-1 .cup {
   position: absolute;
   left: 0;
   bottom: -6%;
+}
+@media (max-width: 768px) {
+  section.sec-1 .cup img {
+    max-width: 60%;
+  }
 }
 section.sec-1 .sec-1-content {
   text-align: center;
@@ -216,6 +238,11 @@ section.sec-1 .sec-1-content .title {
   font-size: 62px;
   letter-spacing: 5px;
 }
+@media (max-width: 1440px) {
+  section.sec-1 .sec-1-content .title {
+    font-size: 48px;
+  }
+}
 section.sec-1 .sec-1-content .sub-title {
   font-weight: 300;
   color: #fff;
@@ -223,23 +250,13 @@ section.sec-1 .sec-1-content .sub-title {
   letter-spacing: 0.8px;
   margin-top: 10px;
 }
+@media (max-width: 1440px) {
+  section.sec-1 .sec-1-content .sub-title {
+    font-size: 30px;
+  }
+}
 section.sec-1 .sec-1-content .btn-wrapper {
   margin-top: 62px;
-}
-section.sec-1 .sec-1-content .btn-wrapper a {
-  display: inline-block;
-  background-color: #fbdb9c;
-  font-size: 16px;
-  color: #2a2a2a;
-  font-weight: 300;
-  padding: 11px 21px;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
-}
-section.sec-1 .sec-1-content .btn-wrapper a:hover {
-  background-color: #8D0708;
-  color: #fff;
 }
 
 @-webkit-keyframes rotation {
@@ -271,6 +288,12 @@ section.sec-2 .rec-top {
   top: 59px;
   text-align: center;
 }
+@media (max-width: 1440px) {
+  section.sec-2 .rec-top {
+    width: 695px;
+    top: 93px;
+  }
+}
 section.sec-2 .rec-bottom {
   position: absolute;
   margin: auto;
@@ -278,6 +301,11 @@ section.sec-2 .rec-bottom {
   right: 0;
   top: 480px;
   text-align: center;
+}
+@media (max-width: 1440px) {
+  section.sec-2 .rec-bottom {
+    top: 435px;
+  }
 }
 section.sec-2 .machine {
   top: 80px;
@@ -317,21 +345,6 @@ section.sec-2 .page-container .sec-2-content .description {
 section.sec-2 .page-container .sec-2-content .btn-wrapper {
   margin-top: 29px;
 }
-section.sec-2 .page-container .sec-2-content .btn-wrapper a {
-  display: inline-block;
-  background-color: #fbdb9c;
-  font-size: 16px;
-  color: #2a2a2a;
-  font-weight: 300;
-  padding: 11px 21px;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
-}
-section.sec-2 .page-container .sec-2-content .btn-wrapper a:hover {
-  background-color: #8D0708;
-  color: #fff;
-}
 
 section.sec-3 {
   background: url(../images/sec-3-bg.jpg) no-repeat center center;
@@ -339,6 +352,19 @@ section.sec-3 {
   -webkit-background-size: cover;
   -o-background-size: cover;
   position: relative;
+}
+section.sec-3 .cup {
+  left: 0;
+  right: 0;
+  bottom: -110px;
+  position: absolute;
+  text-align: center;
+  max-width: 338px;
+  max-height: 491px;
+  margin: 0 auto;
+}
+section.sec-3 .page-container {
+  top: 14%;
 }
 section.sec-3 .page-container .sec-3-content {
   text-align: center;
@@ -352,21 +378,36 @@ section.sec-3 .page-container .sec-3-content .title, section.sec-3 .page-contain
 }
 section.sec-3 .page-container .sec-3-content .title.color, section.sec-3 .page-container .sec-3-content .sub-title.color {
   color: #fbdb9c;
+  margin-bottom: 73px;
 }
 section.sec-3 .page-container .sec-3-content .number {
   font-size: 104px;
   color: #fbdb9c;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 section.sec-3 .page-container .sec-3-content .text {
   font-size: 18px;
   text-transform: uppercase;
   color: #fff;
+  line-height: 1.4;
+}
+section.sec-3 .page-container .sec-3-content .btn-wrapper {
+  margin-top: 50px;
 }
 
 section.sec-4 {
   background-color: #181818;
   position: relative;
+}
+section.sec-4 .machine {
+  position: absolute;
+  left: 60px;
+  bottom: 0;
+}
+section.sec-4 .cup {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
 }
 section.sec-4 .flower {
   width: 1159px;
@@ -382,6 +423,89 @@ section.sec-4 .flower {
 section.sec-4 .flower img {
   max-width: 100%;
 }
+section.sec-4 .page-container {
+  top: 20%;
+}
+section.sec-4 .page-container .sec-4-content {
+  text-align: center;
+}
+section.sec-4 .page-container .sec-4-content .title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "American Sans Regular", sans-serif;
+  color: #fbdb9c;
+  letter-spacing: 1.6px;
+  display: inline-block;
+  margin: 0 auto 35px auto;
+  position: relative;
+}
+section.sec-4 .page-container .sec-4-content .title:after, section.sec-4 .page-container .sec-4-content .title:before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  display: block;
+  background-color: #fbdb9c;
+  top: 50%;
+}
+section.sec-4 .page-container .sec-4-content .title:after {
+  left: -20px;
+  transform: translate(-100%, 50%);
+}
+section.sec-4 .page-container .sec-4-content .title:before {
+  right: -20px;
+  transform: translate(100%, 50%);
+}
+section.sec-4 .page-container .sec-4-content .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  max-width: 300px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+section.sec-4 .page-container .sec-4-content .rec-gr {
+  display: flex;
+  justify-content: space-between;
+  max-width: 796px;
+  margin: 45px auto 0 auto;
+}
+section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper {
+  border: 3px solid #fbdb9c;
+  width: 330px;
+  height: 330px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper {
+    width: 280px;
+    height: 280px;
+  }
+}
+section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(-45deg) scale(1.5);
+}
+section.sec-4 .page-container .sec-4-content .btn-wrapper {
+  margin-top: 61px;
+}
 
 section.sec-5 {
   background: url(../images/sec-5-bg.jpg) no-repeat center center;
@@ -389,6 +513,131 @@ section.sec-5 {
   -webkit-background-size: cover;
   -o-background-size: cover;
   position: relative;
+}
+section.sec-5 .machine {
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  position: absolute;
+  text-align: center;
+  max-width: 272px;
+  max-height: 777px;
+  margin: 0 auto;
+}
+section.sec-5 .machine img {
+  max-height: 577px;
+}
+section.sec-5 .page-container {
+  top: 15%;
+}
+section.sec-5 .page-container .sec-5-content {
+  text-align: center;
+}
+section.sec-5 .page-container .sec-5-content .title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-family: "American Sans Regular", sans-serif;
+  color: #fbdb9c;
+  font-size: 30px;
+  letter-spacing: 1.7px;
+  max-width: 822px;
+  margin: 0 auto 70px auto;
+}
+section.sec-5 .page-container .sec-5-content .sub-title {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 40px;
+}
+section.sec-5 .page-container .sec-5-content .btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+section.sec-5 .page-container .sec-5-content .btn-wrapper a {
+  background-color: transparent;
+  border: 1px solid #fbdb9c;
+  color: #fbdb9c;
+  margin: 0 10px;
+}
+section.sec-5 .page-container .sec-5-content .btn-wrapper a:hover {
+  color: #2a2a2a;
+  background-color: #fbdb9c;
+}
+
+.footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.header-wrapper .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-wrapper .header-container .btn-nav {
+  width: 43px;
+  height: 27px;
+  cursor: pointer;
+  margin: 16px;
+  position: relative;
+  z-index: 400;
+}
+.header-wrapper .header-container .btn-nav:hover .line1 {
+  transform: translateY(-28px);
+  -webkit-transform: translateY(-28px);
+  -o-transform: translateY(-28px);
+}
+.header-wrapper .header-container .btn-nav span {
+  font-size: 12px;
+  line-height: 22px;
+  padding: 0;
+  margin: 0;
+  color: #f3e49e;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.header-wrapper .header-container .btn-nav .line {
+  width: 42px;
+  height: 2px;
+  background: #f3e49e;
+  margin-bottom: 2px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.btn-wrapper a {
+  display: inline-block;
+  background-color: #fbdb9c;
+  font-size: 16px;
+  color: #2a2a2a;
+  font-weight: 300;
+  padding: 11px 21px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.btn-wrapper a.text-uppercase {
+  text-transform: uppercase;
+}
+.btn-wrapper a:hover {
+  background-color: #8D0708;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
