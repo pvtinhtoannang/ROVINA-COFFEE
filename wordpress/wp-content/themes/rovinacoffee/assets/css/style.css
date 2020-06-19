@@ -35,107 +35,117 @@ body {
   font-family: "Sarabun", sans-serif;
 }
 
-.template-experience {
-  padding: 190px 0 160px 0;
+.template-about-us {
+  padding: 190px 0 320px 0;
   background-color: #17181a;
   background-image: url(../images/bg-experience.png);
   background-position: center -300px;
   background-repeat: no-repeat;
+  overflow: hidden;
   color: #FFF;
-  margin-bottom: 30px a;
-  margin-bottom-color: #FFF;
-  margin-bottom--webkit-transition: all 0.4s ease-in-out;
-  margin-bottom--moz-transition: all 0.4s ease-in-out;
-  margin-bottom--ms-transition: all 0.4s ease-in-out;
-  margin-bottom--o-transition: all 0.4s ease-in-out;
-  margin-bottom-transition: all 0.4s ease-in-out;
+  position: relative;
 }
-@media screen and (min-width: 1310px) {
-  .template-experience .container {
-    width: 1310px;
+@media screen and (max-width: 992px) {
+  .template-about-us {
+    padding: 190px 0 230px 0;
   }
 }
-.template-experience ul.tab-experience {
-  justify-content: center;
-  -webkit-justify-content: center;
-  margin-bottom: 45px;
+@media (min-width: 320px) {
+  .template-about-us .flex-xs-wrap {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .template-about-us .text-xs-center {
+    text-align: center;
+  }
 }
-.template-experience ul.tab-experience li a {
-  display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0;
+.template-about-us .container {
   position: relative;
-  font-weight: 400;
-  font-size: 20px;
-  padding: 10px 55px;
+  z-index: 2;
 }
-.template-experience ul.tab-experience li a:before {
-  content: "";
-  height: 3px;
-  position: absolute;
-  bottom: -2px;
-  width: 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  background-color: #fbdb9c;
-  left: 0;
+@media screen and (min-width: 1310px) {
+  .template-about-us .container {
+    max-width: 1310px;
+  }
 }
-.template-experience ul.tab-experience li a.active {
-  color: #fbdb9c;
-  background-color: transparent;
-}
-.template-experience ul.tab-experience li a.active:before {
-  width: 100%;
-}
-.template-experience .experience-top-item a.color-experience {
-  color: #fbdb9c;
-}
-.template-experience .experience-top-item .title-experience a {
-  display: block;
-  text-decoration: none;
-  font-size: 40px;
+.template-about-us .title-about-us {
   font-family: "UTM American Sans", sans-serif;
+  font-size: 50px;
+  color: #fbdb9c;
+  padding: 20px 0;
   position: relative;
-  padding: 30px 0;
+  margin-bottom: 30px;
 }
-.template-experience .experience-top-item .title-experience a:before {
+@media screen and (max-width: 768px) {
+  .template-about-us .title-about-us {
+    text-align: center;
+  }
+}
+.template-about-us .title-about-us:before {
   content: "";
-  width: 190px;
-  height: 6px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  background-color: #FFF;
+  height: 2px;
+  width: 110px;
   position: absolute;
   bottom: 0;
   left: 0;
-}
-.template-experience .experience-top-item .experience-information, .template-experience .experience-top-item .experience-image {
-  width: calc(50% - 15px);
-}
-.template-experience .experience-top-item .description {
-  max-width: 490px;
-  margin: 40px 0;
-  width: 100%;
-  font-size: 18px;
-  line-height: 1.4;
-}
-.template-experience .experience-top-item a.viewmore {
-  font-size: 22px;
-  border: 1px solid #fbdb9c;
-  height: 65px;
-  width: 245px;
-  display: block;
-  font-weight: 300;
-  color: #fbdb9c;
-}
-.template-experience .experience-top-item a.viewmore:hover {
   background-color: #fbdb9c;
-  color: #FFF;
-  text-decoration: none;
+}
+.template-about-us .description {
+  font-size: 18px;
+  line-height: 2;
+}
+.template-about-us .top-about-us .description {
+  max-width: 375px;
+}
+.template-about-us .top-about-us .img-item img {
+  width: 100%;
+}
+.template-about-us .top-about-us .text-item-right .title-about-us:before {
+  right: 0;
+  left: unset;
+}
+.template-about-us .top-about-us .text-item-left, .template-about-us .top-about-us .text-item-right {
+  max-width: 420px;
+}
+@media screen and (max-width: 992px) {
+  .template-about-us .top-about-us .text-item, .template-about-us .top-about-us .img-item {
+    width: 100%;
+  }
+  .template-about-us .top-about-us .text-item .title-about-us:before, .template-about-us .top-about-us .img-item .title-about-us:before {
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+}
+.template-about-us .bottom-about-us {
+  margin-top: -105px;
+}
+@media screen and (max-width: 992px) {
+  .template-about-us .bottom-about-us {
+    margin-top: 0;
+    margin-bottom: 500px;
+  }
+}
+.template-about-us .bottom-about-us .title-about-us:before {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.template-about-us .bottom-about-us .description {
+  max-width: 750px;
+  margin: auto;
+}
+.template-about-us .bg-bottom {
+  background-image: url(../images/about-us-img-bottom.png);
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 465px;
+  max-width: 100%;
+  height: 720px;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /*# sourceMappingURL=style.css.map */
