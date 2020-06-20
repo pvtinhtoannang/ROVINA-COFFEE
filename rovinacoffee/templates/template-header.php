@@ -14,6 +14,9 @@
     <div class="overlay overlay-hugeinc">
         <button type="button" class="overlay-close">Close</button>
         <nav>
+            <div class="logo-nav">
+                <a href=""><img src="<?= get_theme_file_uri('/assets/images/logo-2.png') ?>" alt=""></a>
+            </div>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>

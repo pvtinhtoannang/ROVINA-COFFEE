@@ -73,6 +73,17 @@ ul.onepage-pagination {
 body {
     font-family: 'Sarabun', sans-serif;
 }
+@mixin textWithEllipsis($fontSize, $lineHeight, $line) {
+    font-size: $fontSize+px;
+    line-height: $lineHeight;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: ($fontSize * $lineHeight * $line)+px;
+}
 
 @mixin responsive($size) {
     @media (max-width: #{$size}px) {
