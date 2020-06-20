@@ -4,6 +4,9 @@ section.sec-1 {
     -webkit-background-size: cover;
     -o-background-size: cover;
     position: relative;
+    @include responsive(600) {
+        background: url(../images/sec-1-bg-mb.jpg) no-repeat center center;
+    }
 
     .page-container {
         top: 35%;
@@ -23,6 +26,14 @@ section.sec-1 {
             width: 550px;
             height: 550px;
         }
+        @include responsive(480) {
+            width: 400px;
+            height: 400px;
+        }
+        @include responsive(425) {
+            width: 300px;
+            height: 300px;
+        }
 
         img {
             max-width: 100%;
@@ -37,6 +48,7 @@ section.sec-1 {
         @include responsive(768) {
             bottom: -12%;
         }
+
         img {
             width: auto;
             @include responsive(768) {
@@ -69,6 +81,9 @@ section.sec-1 {
             @include responsive(1440) {
                 font-size: 48px;
             }
+            @include responsive(480) {
+                font-size: 30px;
+            }
         }
 
         .sub-title {
@@ -80,10 +95,16 @@ section.sec-1 {
             @include responsive(1440) {
                 font-size: 30px;
             }
+            @include responsive(480) {
+                font-size: 20px;
+            }
         }
 
         .btn-wrapper {
             margin-top: 62px;
+            @include responsive(480) {
+                margin-top: 30px;
+            }
         }
     }
 }

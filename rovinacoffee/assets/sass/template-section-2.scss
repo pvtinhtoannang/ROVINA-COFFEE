@@ -7,6 +7,9 @@ section.sec-2 {
 
     .page-container {
         top: 62%;
+        @include responsive(768){
+            top: 60%;
+        }
     }
 
     .rec-top {
@@ -22,6 +25,12 @@ section.sec-2 {
         @include responsive(1440) {
             width: 695px;
             top: 93px;
+        }
+        @include responsive(600) {
+            width: 400px;
+        }
+        @include responsive(480) {
+            width: 300px;
         }
     }
 
@@ -67,6 +76,9 @@ section.sec-2 {
                 color: #fbdb9c;
                 letter-spacing: 4px;
                 margin-bottom: 8px;
+                @include responsive(768){
+                    font-size: 40px;
+                }
             }
 
             .description {

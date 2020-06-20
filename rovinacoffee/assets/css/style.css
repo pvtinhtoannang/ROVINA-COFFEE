@@ -278,6 +278,11 @@ section.sec-1 {
   -o-background-size: cover;
   position: relative;
 }
+@media (max-width: 600px) {
+  section.sec-1 {
+    background: url(../images/sec-1-bg-mb.jpg) no-repeat center center;
+  }
+}
 section.sec-1 .page-container {
   top: 35%;
 }
@@ -296,6 +301,18 @@ section.sec-1 .flower {
   section.sec-1 .flower {
     width: 550px;
     height: 550px;
+  }
+}
+@media (max-width: 480px) {
+  section.sec-1 .flower {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.sec-1 .flower {
+    width: 300px;
+    height: 300px;
   }
 }
 section.sec-1 .flower img {
@@ -345,6 +362,11 @@ section.sec-1 .sec-1-content .title {
     font-size: 48px;
   }
 }
+@media (max-width: 480px) {
+  section.sec-1 .sec-1-content .title {
+    font-size: 30px;
+  }
+}
 section.sec-1 .sec-1-content .sub-title {
   font-weight: 300;
   color: #fff;
@@ -357,8 +379,18 @@ section.sec-1 .sec-1-content .sub-title {
     font-size: 30px;
   }
 }
+@media (max-width: 480px) {
+  section.sec-1 .sec-1-content .sub-title {
+    font-size: 20px;
+  }
+}
 section.sec-1 .sec-1-content .btn-wrapper {
   margin-top: 62px;
+}
+@media (max-width: 480px) {
+  section.sec-1 .sec-1-content .btn-wrapper {
+    margin-top: 30px;
+  }
 }
 
 @-webkit-keyframes rotation {
@@ -379,6 +411,11 @@ section.sec-2 {
 section.sec-2 .page-container {
   top: 62%;
 }
+@media (max-width: 768px) {
+  section.sec-2 .page-container {
+    top: 60%;
+  }
+}
 section.sec-2 .rec-top {
   position: absolute;
   width: 852px;
@@ -394,6 +431,16 @@ section.sec-2 .rec-top {
   section.sec-2 .rec-top {
     width: 695px;
     top: 93px;
+  }
+}
+@media (max-width: 600px) {
+  section.sec-2 .rec-top {
+    width: 400px;
+  }
+}
+@media (max-width: 480px) {
+  section.sec-2 .rec-top {
+    width: 300px;
   }
 }
 section.sec-2 .rec-bottom {
@@ -437,6 +484,11 @@ section.sec-2 .page-container .sec-2-content .sub-title {
   letter-spacing: 4px;
   margin-bottom: 8px;
 }
+@media (max-width: 768px) {
+  section.sec-2 .page-container .sec-2-content .sub-title {
+    font-size: 40px;
+  }
+}
 section.sec-2 .page-container .sec-2-content .description {
   font-size: 18px;
   color: #fff;
@@ -478,20 +530,45 @@ section.sec-3 .page-container .sec-3-content .title, section.sec-3 .page-contain
   margin: 6px 0;
   font-weight: 700;
 }
+@media (max-width: 480px) {
+  section.sec-3 .page-container .sec-3-content .title, section.sec-3 .page-container .sec-3-content .sub-title {
+    font-size: 18px;
+  }
+}
 section.sec-3 .page-container .sec-3-content .title.color, section.sec-3 .page-container .sec-3-content .sub-title.color {
   color: #fbdb9c;
   margin-bottom: 73px;
+}
+@media (max-width: 600px) {
+  section.sec-3 .page-container .sec-3-content .title.color, section.sec-3 .page-container .sec-3-content .sub-title.color {
+    margin-bottom: 30px;
+  }
 }
 section.sec-3 .page-container .sec-3-content .number {
   font-size: 104px;
   color: #fbdb9c;
   line-height: 1.2;
 }
+@media (max-width: 600px) {
+  section.sec-3 .page-container .sec-3-content .number {
+    font-size: 70px;
+  }
+}
+@media (max-width: 480px) {
+  section.sec-3 .page-container .sec-3-content .number {
+    font-size: 40px;
+  }
+}
 section.sec-3 .page-container .sec-3-content .text {
   font-size: 18px;
   text-transform: uppercase;
   color: #fff;
   line-height: 1.4;
+}
+@media (max-width: 480px) {
+  section.sec-3 .page-container .sec-3-content .text {
+    font-size: 14px;
+  }
 }
 section.sec-3 .page-container .sec-3-content .btn-wrapper {
   margin-top: 50px;
@@ -521,6 +598,12 @@ section.sec-4 .flower {
   bottom: 0;
   margin: auto;
   -webkit-animation: rotation 50s infinite linear;
+}
+@media (max-width: 1024px) {
+  section.sec-4 .flower {
+    width: 900px;
+    height: 900px;
+  }
 }
 section.sec-4 .flower img {
   max-width: 100%;
@@ -573,6 +656,17 @@ section.sec-4 .page-container .sec-4-content .rec-gr {
   max-width: 796px;
   margin: 45px auto 0 auto;
 }
+@media (max-width: 768px) {
+  section.sec-4 .page-container .sec-4-content .rec-gr {
+    max-width: calc(100% - 60px);
+    justify-content: center;
+  }
+}
+@media (max-width: 425px) {
+  section.sec-4 .page-container .sec-4-content .rec-gr {
+    max-width: 100%;
+  }
+}
 section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper {
   border: 3px solid #fbdb9c;
   width: 330px;
@@ -585,8 +679,30 @@ section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper {
 }
 @media (max-width: 768px) {
   section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+  }
+}
+@media (max-width: 600px) {
+  section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper {
+    width: 180px;
+    height: 180px;
+    margin: 35px;
+  }
+}
+@media (max-width: 480px) {
+  section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+  }
+}
+@media (max-width: 425px) {
+  section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper {
+    width: 110px;
+    height: 110px;
+    margin: 20px;
   }
 }
 section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper:before {
@@ -632,6 +748,12 @@ section.sec-5 .machine img {
 section.sec-5 .page-container {
   top: 15%;
 }
+@media (max-width: 1024px) {
+  section.sec-5 .page-container {
+    top: 30%;
+    padding: 0 30px;
+  }
+}
 section.sec-5 .page-container .sec-5-content {
   text-align: center;
 }
@@ -645,6 +767,16 @@ section.sec-5 .page-container .sec-5-content .title {
   letter-spacing: 1.7px;
   max-width: 822px;
   margin: 0 auto 70px auto;
+}
+@media (max-width: 768px) {
+  section.sec-5 .page-container .sec-5-content .title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  section.sec-5 .page-container .sec-5-content .title {
+    font-size: 15px;
+  }
 }
 section.sec-5 .page-container .sec-5-content .sub-title {
   font-weight: 700;
@@ -662,6 +794,13 @@ section.sec-5 .page-container .sec-5-content .btn-wrapper a {
   border: 1px solid #fbdb9c;
   color: #fbdb9c;
   margin: 0 10px;
+}
+@media (max-width: 480px) {
+  section.sec-5 .page-container .sec-5-content .btn-wrapper a {
+    font-size: 10px;
+    padding: 5px;
+    margin: 0 2px;
+  }
 }
 section.sec-5 .page-container .sec-5-content .btn-wrapper a:hover {
   color: #2a2a2a;

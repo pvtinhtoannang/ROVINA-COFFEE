@@ -28,10 +28,16 @@ section.sec-3 {
                 color: #fff;
                 margin: 6px 0;
                 font-weight: 700;
+                @include responsive(480) {
+                    font-size: 18px;
+                }
 
                 &.color {
                     color: #fbdb9c;
                     margin-bottom: 73px;
+                    @include responsive(600) {
+                        margin-bottom: 30px;
+                    }
                 }
             }
 
@@ -39,6 +45,12 @@ section.sec-3 {
                 font-size: 104px;
                 color: #fbdb9c;
                 line-height: 1.2;
+                @include responsive(600) {
+                    font-size: 70px;
+                }
+                @include responsive(480) {
+                    font-size: 40px;
+                }
             }
 
             .text {
@@ -46,6 +58,9 @@ section.sec-3 {
                 text-transform: uppercase;
                 color: #fff;
                 line-height: 1.4;
+                @include responsive(480) {
+                    font-size: 14px;
+                }
             }
 
             .btn-wrapper {

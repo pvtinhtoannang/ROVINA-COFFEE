@@ -22,6 +22,10 @@ section.sec-5 {
 
     .page-container {
         top: 15%;
+        @include responsive(1024) {
+            top: 30%;
+            padding: 0 30px;
+        }
 
         .sec-5-content {
             text-align: center;
@@ -36,6 +40,12 @@ section.sec-5 {
                 letter-spacing: 1.7px;
                 max-width: 822px;
                 margin: 0 auto 70px auto;
+                @include responsive(768) {
+                    font-size: 20px;
+                }
+                @include responsive(480) {
+                    font-size: 15px;
+                }
             }
 
             .sub-title {
@@ -55,6 +65,11 @@ section.sec-5 {
                     border: 1px solid #fbdb9c;
                     color: #fbdb9c;
                     margin: 0 10px;
+                    @include responsive(480) {
+                        font-size: 10px;
+                        padding: 5px;
+                        margin: 0 2px;
+                    }
 
                     &:hover {
                         color: #2a2a2a;
