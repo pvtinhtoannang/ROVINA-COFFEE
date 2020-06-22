@@ -4,6 +4,7 @@
  */
 get_header();
 $urlTheme = get_template_directory_uri();
+get_template_part('templates/template-after-header');
 ?>
 
     <div class="template-about-us">

@@ -7,11 +7,13 @@
   overflow: hidden;
   color: #FFF;
   position: relative;
+  margin-top: -115px;
+  z-index: -1;
+
   @media screen and (max-width: 992px) {
     padding: 190px 0 230px 0;
   }
   @media (min-width: 320px) {
-
     .flex-xs-wrap {
       -ms-flex-wrap: wrap !important;
       flex-wrap: wrap !important;
