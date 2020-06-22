@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a54521b5-1214-488a-9d82-3a5f0dc44e7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/assets/css/reset.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/assets/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/assets/sass/template-experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/assets/sass/template-experience.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/templates/template-experience.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/rovinacoffee/templates/template-experience.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\DEV\WP\ROVINA-COFFEE\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1deixXrxpUd5E0k0qkiRJA8Sh3W" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DEV\WP\ROVINA-COFFEE\wordpress\wp-content\themes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a54521b5-1214-488a-9d82-3a5f0dc44e7b" name="Default Changelist" comment="" />
+      <created>1592792206516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592792206516</updated>
+      <workItem from="1592792209715" duration="515000" />
+      <workItem from="1592792726168" duration="1157000" />
+      <workItem from="1592794056139" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
