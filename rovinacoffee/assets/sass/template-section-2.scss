@@ -1,0 +1,97 @@
+section.sec-2 {
+    background: url(../images/sec-2-bg.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+
+    .page-container {
+        top: 62%;
+        @include responsive(768){
+            top: 60%;
+        }
+    }
+
+    .rec-top {
+        position: absolute;
+        width: 852px;
+        height: 427px;
+        overflow: hidden;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 59px;
+        text-align: center;
+        @include responsive(1440) {
+            width: 695px;
+            top: 93px;
+        }
+        @include responsive(600) {
+            width: 400px;
+        }
+        @include responsive(480) {
+            width: 300px;
+        }
+    }
+
+    .rec-bottom {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 480px;
+        text-align: center;
+        @include responsive(1440) {
+            top: 435px;
+        }
+    }
+
+    .machine {
+        top: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        text-align: center;
+        max-width: 244px;
+        max-height: 567px;
+        margin: 0 auto;
+    }
+
+    .page-container {
+        .sec-2-content {
+            text-align: center;
+
+            .title {
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #fff;
+                margin-bottom: 12px;
+            }
+
+            .sub-title {
+                font-size: 65px;
+                text-transform: uppercase;
+                font-family: "American Sans Regular", sans-serif;
+                color: #fbdb9c;
+                letter-spacing: 4px;
+                margin-bottom: 8px;
+                @include responsive(768){
+                    font-size: 40px;
+                }
+            }
+
+            .description {
+                font-size: 18px;
+                color: #fff;
+                max-width: 360px;
+                margin: 0 auto;
+                line-height: 1.8;
+            }
+
+            .btn-wrapper {
+                margin-top: 29px;
+            }
+        }
+    }
+}

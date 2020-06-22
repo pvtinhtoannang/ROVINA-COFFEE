@@ -1,0 +1,119 @@
+section.sec-1 {
+    background: url(../images/sec-1-bg.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    @include responsive(600) {
+        background: url(../images/sec-1-bg-mb.jpg) no-repeat center center;
+    }
+
+    .page-container {
+        top: 35%;
+    }
+
+    .flower {
+        width: 668px;
+        height: 668px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        -webkit-animation: rotation 50s infinite linear;
+        @include responsive(1440) {
+            width: 550px;
+            height: 550px;
+        }
+        @include responsive(480) {
+            width: 400px;
+            height: 400px;
+        }
+        @include responsive(425) {
+            width: 300px;
+            height: 300px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .machine {
+        position: absolute;
+        right: 0;
+        bottom: -20%;
+        text-align: right;
+        @include responsive(768) {
+            bottom: -12%;
+        }
+
+        img {
+            width: auto;
+            @include responsive(768) {
+                max-width: 50%;
+            }
+        }
+    }
+
+    .cup {
+        position: absolute;
+        left: 0;
+        bottom: -6%;
+
+        img {
+            @include responsive(768) {
+                max-width: 60%;
+            }
+        }
+    }
+
+    .sec-1-content {
+        text-align: center;
+
+        .title {
+            font-family: "American Sans Regular", sans-serif;
+            color: #fbdb9c;
+            text-transform: uppercase;
+            font-size: 62px;
+            letter-spacing: 5px;
+            @include responsive(1440) {
+                font-size: 48px;
+            }
+            @include responsive(480) {
+                font-size: 30px;
+            }
+        }
+
+        .sub-title {
+            font-weight: 300;
+            color: #fff;
+            font-size: 35px;
+            letter-spacing: .8px;
+            margin-top: 10px;
+            @include responsive(1440) {
+                font-size: 30px;
+            }
+            @include responsive(480) {
+                font-size: 20px;
+            }
+        }
+
+        .btn-wrapper {
+            margin-top: 62px;
+            @include responsive(480) {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
