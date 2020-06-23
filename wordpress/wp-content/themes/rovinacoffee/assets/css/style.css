@@ -1328,6 +1328,7 @@ section.sec-5 .page-container .sec-5-content .btn-wrapper a:hover {
   background-position: center -300px;
   background-repeat: no-repeat;
   color: #FFF;
+  margin-top: -120px;
 }
 .template-find-shop a, .template-find-shop img {
   color: #FFF;
