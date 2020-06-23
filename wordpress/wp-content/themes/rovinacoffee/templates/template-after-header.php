@@ -1,7 +1,7 @@
 <div
     class="template-after-header template-after-header-top  d-flex flex-column justify-content-center        <?php if (is_page('mo-quan')): ?> template-after-header-shop  <?php endif; ?>">
     <div class="logo-header text-center">
-        <a href=""><img src="<?= get_theme_file_uri('/assets/images/logo.png') ?>" alt=""></a>
+        <a href="/"><img src="<?= get_theme_file_uri('/assets/images/logo.png') ?>" alt=""></a>
     </div>
     <div class="page-title text-center">
         <h1 class="title text-uppercase text-center"><?= get_the_title() ?></h1>
