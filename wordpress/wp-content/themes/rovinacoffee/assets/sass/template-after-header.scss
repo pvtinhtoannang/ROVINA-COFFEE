@@ -5,7 +5,9 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-
+  &.template-after-header-shop{
+    height: 445px;
+  }
   &:before, &:after {
     content: '';
     position: absolute;
@@ -58,6 +60,7 @@
       width: -moz-fit-content;
       padding: 10px 40px;
       position: relative;
+      margin: auto;
 
       &:before, &:after {
         content: '';
@@ -85,6 +88,14 @@
     .sub-title {
       font-size: 22px;
       font-weight: 500;
+      line-height: 1.4;
+    }
+
+    .number {
+      font-size: 60px;
+      color: #fbdb9c;
+      font-family: "UTM Avo", sans-serif;
+      padding: 20px 0;
     }
   }
 }
@@ -148,4 +159,42 @@
     }
   }
 
+}
+
+.template-after-header-bottom-header-open-shop {
+  background-color: #17181a;
+  margin-top: -125px;
+  -webkit-clip-path: polygon(50% 28%, 100% 0, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(50% 32%, 100% 0, 100% 100%, 0 100%, 0 0);
+  height: 390px;
+  width: 100%;
+  .description{
+    font-weight: 800;
+    font-size: 18px;
+    margin: 75px auto 30px auto;
+  }
+  .list-button-question{
+    width: 100%;
+    .button-question{
+      width: 250px;
+      height: 65px;
+      background-color: #fbdb9c;
+      border: 1px solid #fbdb9c;
+      font-weight: 500;
+      color: #2a2a2a;
+      font-size: 22px;
+      margin: 0 15px;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      cursor: pointer;
+      &:hover{
+        background-color: transparent;
+        color: #fbdb9c;
+
+      }
+    }
+  }
 }

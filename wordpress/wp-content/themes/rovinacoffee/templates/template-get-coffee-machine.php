@@ -1,11 +1,11 @@
 <section class="template-get-coffee-machine">
     <div class="container">
         <fieldset>
-            <legend class="text-center">
+            <legend class="text-center title-legend">
                 <h2>THÔNG TIN MUA MÁY CAFE</h2>
                 <p>Chỉ áp dụng tại quán thuộc khu vực TP.HCM</p>
             </legend>
-            <form action="">
+            <form class="template-get-coffee-machine" action="">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6">
                         <input type="text" class="input-type-1 stt" value="" name="stt" placeholder="STT">
