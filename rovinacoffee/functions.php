@@ -26,6 +26,8 @@ function rovina_coffee_enqueue_scripts()
     wp_enqueue_script('classie-js', get_theme_file_uri('/assets/lib/fullscreenoverlay/js/classie.js'), array(), $theme_version, true);
     wp_enqueue_script('fullscreenoverlay-js', get_theme_file_uri('/assets/lib/fullscreenoverlay/js/demo1.js'), array(), $theme_version, true);
     wp_enqueue_script('modernizr-js', get_theme_file_uri('/assets/lib/fullscreenoverlay/js/modernizr.custom.js'), array(), $theme_version, false);
+
+    wp_enqueue_script('gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js', array('jquery'), $theme_version, true);
     wp_enqueue_script('script', get_theme_file_uri('/assets/js/script.js'), array('jquery'), $theme_version, true);
 }
 

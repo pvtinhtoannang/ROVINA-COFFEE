@@ -5,8 +5,8 @@
     <div class="page-container">
         <div class="sec-5-content">
             <h2 class="title">
-                <span>Cafe pha máy</span>
-                <span>Phong cách mới</span>
+                <span class="title-left">Cafe pha máy</span>
+                <span class="title-right">Phong cách mới</span>
             </h2>
             <h3 class="sub-title">Bạn muốn tiên phong sở hữu?</h3>
             <div class="btn-wrapper">

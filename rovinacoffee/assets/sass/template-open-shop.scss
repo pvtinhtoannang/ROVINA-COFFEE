@@ -1,0 +1,97 @@
+.template-open-shop {
+  padding: 190px 0 230px 0;
+  background-color: #2a1d14;
+  background-image: url(../images/bg-experience.png);
+  background-position: center -300px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: #FFF;
+  position: relative;
+  margin-top: -115px;
+  z-index: -1;
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .content-form,.content-form-sub {
+
+    &:before, &:after {
+      content: '';
+      width: 91px;
+      height: 91px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position: top;
+      z-index: 2;
+    }
+
+    &:before {
+      left: 6px;
+      background-image: url(../images/form-flower-1.png);
+    }
+
+    &:after {
+      right: 6px;
+      background-image: url(../images/form-flower-2.png);
+    }
+  }
+  .content-form{
+    border: 1px solid #fbdb9c;
+
+    &:before, &:after {
+      top: -7px;
+    }
+  }
+  .content-form-sub{
+    &:before, &:after {
+      bottom: -7px;
+    }
+    &:before{
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+    }
+    &:after{
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  }
+
+  @media screen and (min-width: 1310px) {
+    .container {
+      max-width: 1310px;
+    }
+  }
+
+  form.content-open-shop {
+    background-color: transparent;
+    @include responsive(600){
+      padding-bottom: 150px;
+
+    }
+    .title-legend {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .group-input-open-shop {
+      margin-bottom: 30px;
+    }
+
+    .btn-submit {
+      position: absolute;
+      bottom: 40px;
+      margin: 0 auto;
+      @include responsive(600){
+        bottom: 85px;
+      }
+    }
+  }
+}
