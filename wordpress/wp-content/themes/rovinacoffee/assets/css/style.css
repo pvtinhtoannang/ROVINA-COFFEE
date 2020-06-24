@@ -564,6 +564,9 @@ section.sec-2 .rec-top {
     width: 300px;
   }
 }
+section.sec-2 .rec-top img {
+  opacity: 0;
+}
 section.sec-2 .rec-bottom {
   position: absolute;
   margin: auto;
@@ -577,6 +580,9 @@ section.sec-2 .rec-bottom {
     top: 435px;
   }
 }
+section.sec-2 .rec-bottom img {
+  opacity: 0;
+}
 section.sec-2 .machine {
   top: 80px;
   left: 0;
@@ -588,6 +594,9 @@ section.sec-2 .machine {
   max-height: 567px;
   margin: 0 auto;
 }
+section.sec-2 .machine img {
+  opacity: 0;
+}
 section.sec-2 .page-container .sec-2-content {
   text-align: center;
 }
@@ -596,6 +605,7 @@ section.sec-2 .page-container .sec-2-content .title {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 12px;
+  opacity: 0;
 }
 section.sec-2 .page-container .sec-2-content .sub-title {
   font-size: 65px;
@@ -604,6 +614,7 @@ section.sec-2 .page-container .sec-2-content .sub-title {
   color: #fbdb9c;
   letter-spacing: 4px;
   margin-bottom: 8px;
+  opacity: 0;
 }
 @media (max-width: 768px) {
   section.sec-2 .page-container .sec-2-content .sub-title {
@@ -616,9 +627,11 @@ section.sec-2 .page-container .sec-2-content .description {
   max-width: 360px;
   margin: 0 auto;
   line-height: 1.8;
+  opacity: 0;
 }
 section.sec-2 .page-container .sec-2-content .btn-wrapper {
   margin-top: 29px;
+  opacity: 0;
 }
 
 section.sec-3 {
@@ -638,6 +651,9 @@ section.sec-3 .cup {
   max-height: 491px;
   margin: 0 auto;
 }
+section.sec-3 .cup img {
+  opacity: 0;
+}
 section.sec-3 .page-container {
   top: 14%;
 }
@@ -650,6 +666,7 @@ section.sec-3 .page-container .sec-3-content .title, section.sec-3 .page-contain
   color: #fff;
   margin: 6px 0;
   font-weight: 700;
+  opacity: 0;
 }
 @media (max-width: 480px) {
   section.sec-3 .page-container .sec-3-content .title, section.sec-3 .page-container .sec-3-content .sub-title {
@@ -669,6 +686,7 @@ section.sec-3 .page-container .sec-3-content .number {
   font-size: 104px;
   color: #fbdb9c;
   line-height: 1.2;
+  opacity: 0;
 }
 @media (max-width: 600px) {
   section.sec-3 .page-container .sec-3-content .number {
@@ -685,6 +703,7 @@ section.sec-3 .page-container .sec-3-content .text {
   text-transform: uppercase;
   color: #fff;
   line-height: 1.4;
+  opacity: 0;
 }
 @media (max-width: 480px) {
   section.sec-3 .page-container .sec-3-content .text {
@@ -693,6 +712,7 @@ section.sec-3 .page-container .sec-3-content .text {
 }
 section.sec-3 .page-container .sec-3-content .btn-wrapper {
   margin-top: 50px;
+  opacity: 0;
 }
 
 section.sec-4 {
@@ -704,10 +724,16 @@ section.sec-4 .machine {
   left: 60px;
   bottom: 0;
 }
+section.sec-4 .machine img {
+  opacity: 0;
+}
 section.sec-4 .cup {
   position: absolute;
   right: 30px;
   bottom: 0;
+}
+section.sec-4 .cup img {
+  opacity: 0;
 }
 section.sec-4 .flower {
   width: 1159px;
@@ -728,6 +754,7 @@ section.sec-4 .flower {
 }
 section.sec-4 .flower img {
   max-width: 100%;
+  opacity: 0;
 }
 section.sec-4 .page-container {
   top: 20%;
@@ -744,6 +771,7 @@ section.sec-4 .page-container .sec-4-content .title {
   display: inline-block;
   margin: 0 auto 35px auto;
   position: relative;
+  opacity: 0;
 }
 section.sec-4 .page-container .sec-4-content .title:after, section.sec-4 .page-container .sec-4-content .title:before {
   content: "";
@@ -770,6 +798,7 @@ section.sec-4 .page-container .sec-4-content .sub-title {
   max-width: 300px;
   margin: 0 auto;
   line-height: 1.5;
+  opacity: 0;
 }
 section.sec-4 .page-container .sec-4-content .rec-gr {
   display: flex;
@@ -844,6 +873,7 @@ section.sec-4 .page-container .sec-4-content .rec-gr .rec-wrapper img {
 }
 section.sec-4 .page-container .sec-4-content .btn-wrapper {
   margin-top: 61px;
+  opacity: 0;
 }
 
 section.sec-5 {
@@ -865,6 +895,7 @@ section.sec-5 .machine {
 }
 section.sec-5 .machine img {
   max-height: 577px;
+  opacity: 0;
 }
 section.sec-5 .page-container {
   top: 15%;
@@ -889,6 +920,9 @@ section.sec-5 .page-container .sec-5-content .title {
   max-width: 822px;
   margin: 0 auto 70px auto;
 }
+section.sec-5 .page-container .sec-5-content .title .title-right, section.sec-5 .page-container .sec-5-content .title .title-left {
+  opacity: 0;
+}
 @media (max-width: 768px) {
   section.sec-5 .page-container .sec-5-content .title {
     font-size: 20px;
@@ -905,10 +939,12 @@ section.sec-5 .page-container .sec-5-content .sub-title {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 40px;
+  opacity: 0;
 }
 section.sec-5 .page-container .sec-5-content .btn-wrapper {
   display: flex;
   justify-content: center;
+  opacity: 0;
 }
 section.sec-5 .page-container .sec-5-content .btn-wrapper a {
   background-color: transparent;

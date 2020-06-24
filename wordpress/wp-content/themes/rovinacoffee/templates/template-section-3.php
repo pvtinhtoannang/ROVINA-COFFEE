@@ -11,7 +11,7 @@
             <div class="number">89</div>
             <div class="text">Quán cafe pha máy đang phục vụ</div>
             <div class="btn-wrapper">
-                <a class="text-uppercase" href="">Tim quán</a>
+                <a class="text-uppercase" href="">Tìm quán</a>
             </div>
         </div>
     </div>

@@ -6,12 +6,19 @@ section.sec-4 {
         position: absolute;
         left: 60px;
         bottom: 0;
+        img{
+            opacity: 0;
+        }
+
     }
 
     .cup {
         position: absolute;
         right: 30px;
         bottom: 0;
+        img{
+            opacity: 0;
+        }
     }
 
     .flower {
@@ -31,6 +38,7 @@ section.sec-4 {
 
         img {
             max-width: 100%;
+            opacity: 0;
         }
     }
 
@@ -49,6 +57,7 @@ section.sec-4 {
                 display: inline-block;
                 margin: 0 auto 35px auto;
                 position: relative;
+                opacity: 0;
 
                 &:after, &:before {
                     content: '';
@@ -79,6 +88,8 @@ section.sec-4 {
                 max-width: 300px;
                 margin: 0 auto;
                 line-height: 1.5;
+                opacity: 0;
+
             }
 
             .rec-gr {
@@ -146,6 +157,8 @@ section.sec-4 {
 
             .btn-wrapper {
                 margin-top: 61px;
+                opacity: 0;
+
             }
         }
     }
