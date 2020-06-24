@@ -25,7 +25,6 @@
         </div>
     </div>
     <div class="overlay overlay-hugeinc">
-
         <button type="button" class="overlay-close">Close</button>
         <nav>
             <div class="logo-nav">
