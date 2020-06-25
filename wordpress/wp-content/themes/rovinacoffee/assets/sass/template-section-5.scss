@@ -17,8 +17,6 @@ section.sec-5 {
 
     img {
       max-height: 577px;
-      opacity: 0;
-
     }
   }
 
@@ -44,7 +42,6 @@ section.sec-5 {
         margin: 0 auto 70px auto;
 
         .title-right, .title-left {
-          opacity: 0;
         }
 
         @include responsive(768) {
@@ -61,15 +58,11 @@ section.sec-5 {
         text-transform: uppercase;
         color: #fff;
         margin-bottom: 40px;
-        opacity: 0;
-
       }
 
       .btn-wrapper {
         display: flex;
         justify-content: center;
-
-        opacity: 0;
 
         a {
           background-color: transparent;

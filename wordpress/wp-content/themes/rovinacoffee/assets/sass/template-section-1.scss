@@ -21,7 +21,7 @@ section.sec-1 {
         right: 0;
         bottom: 0;
         margin: auto;
-        -webkit-animation: rotation 50s infinite linear;
+        //-webkit-animation: rotation 50s infinite linear;
         @include responsive(1440) {
             width: 550px;
             height: 550px;
