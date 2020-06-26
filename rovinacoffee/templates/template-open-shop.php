@@ -8,7 +8,10 @@ get_template_part('templates/template-after-header');
 ?>
     <section class="template-open-shop">
         <div class="container">
-            <div class="content-form">
+            <div class="content-form"
+                 data-aos="fade-up"
+                 data-aos-duration="1000"
+                 data-aos-delay="300">
                 <div class="content-form-sub">
                     <form class="content-open-shop template-get-coffee-machine">
                         <div class="title-legend text-center">

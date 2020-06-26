@@ -1,12 +1,6 @@
 <section class="sec-1">
-    <div class="rec-left">
-        <img src="<?= get_theme_file_uri('/assets/images/sec-1-rec-left.png') ?>" alt="">
-    </div>
     <div class="flower">
         <img src="<?= get_theme_file_uri('/assets/images/flower.png') ?>" alt="">
-    </div>
-    <div class="flower-2">
-        <img src="<?= get_theme_file_uri('/assets/images/flower-2.png') ?>" alt="">
     </div>
     <div class="machine">
         <img src="<?= get_theme_file_uri('/assets/images/machine.png') ?>" alt="">

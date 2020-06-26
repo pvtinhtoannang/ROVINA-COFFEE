@@ -1,10 +1,22 @@
 <div
     class="template-after-header template-after-header-top  d-flex flex-column justify-content-center        <?php if (is_page('mo-quan')): ?> template-after-header-shop  <?php endif; ?>">
-    <div class="logo-header text-center">
+    <div class="logo-header text-center"
+         data-aos="fade-up"
+         data-aos-duration="1000"
+         data-aos-delay="300">
         <a href="/"><img src="<?= get_theme_file_uri('/assets/images/logo.png') ?>" alt=""></a>
     </div>
     <div class="page-title text-center">
-        <h1 class="title text-uppercase text-center"><?= get_the_title() ?></h1>
+        <h1 class="title text-uppercase text-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"><?= get_the_title() ?></h1>
+        <?php if (is_page('hanh-trinh-cafe-pha-may')): ?>
+            <div class="sub-title">
+                CAFE PHA MÁY
+            </div>
+        <?php endif; ?>
+
         <?php if (is_page('mo-quan')): ?>
             <div class="sub-title">
                 SỐ CỬA HÀNG ĐANG ĐĂNG KÝ KINH DOANH CAFE PHA MÁY
@@ -26,9 +38,7 @@
 <?php if (is_page('mo-quan')): ?>
     <div class="template-after-header-bottom-header-open-shop d-flex flex-column justify-content-center text-white">
         <p class="description text-center ">
-
             BẠN ĐANG KINH DOANH CÀ PHÊ?
-
         </p>
         <div class="list-button-question d-flex justify-content-center ">
             <button class="button-question">CÓ</button>

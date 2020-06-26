@@ -11,7 +11,10 @@ get_template_part('templates/template-after-header');
         <div class="container">
             <div class="list-product row">
                 <?php for ($i = 1; $i < 9; $i++): ?>
-                    <div class="product-item col-xs-12 col-sm-6 col-md-3">
+                    <div class="product-item col-xs-12 col-sm-6 col-md-3"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                         data-aos-delay="<?= $i * 1 ?>00">
                         <div class="information-product text-center">
                             <div class="box-img">
                                 <a href="#">

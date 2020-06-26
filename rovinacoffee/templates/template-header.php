@@ -32,6 +32,7 @@
             </div>
             <ul>
                 <li><a href="/">Trang chủ</a></li>
+                <li><a href="/hanh-trinh-cafe-pha-may">Hành trình café pha máy</a></li>
                 <li><a href="/ve-chung-toi">Về chúng tôi</a></li>
                 <li><a href="/goc-trai-nghiem">Góc trãi nghiệm</a></li>
                 <li><a href="/san-pham">Sản phẩm</a></li>
