@@ -5,12 +5,6 @@
     </div>
     <div class="page-title text-center">
         <h1 class="title text-uppercase text-center"><?= get_the_title() ?></h1>
-        <?php if (is_page('hanh-trinh-cafe-pha-may')): ?>
-            <div class="sub-title">
-                CAFE PHA MÁY
-            </div>
-        <?php endif; ?>
-
         <?php if (is_page('mo-quan')): ?>
             <div class="sub-title">
                 SỐ CỬA HÀNG ĐANG ĐĂNG KÝ KINH DOANH CAFE PHA MÁY
@@ -32,7 +26,9 @@
 <?php if (is_page('mo-quan')): ?>
     <div class="template-after-header-bottom-header-open-shop d-flex flex-column justify-content-center text-white">
         <p class="description text-center ">
+
             BẠN ĐANG KINH DOANH CÀ PHÊ?
+
         </p>
         <div class="list-button-question d-flex justify-content-center ">
             <button class="button-question">CÓ</button>

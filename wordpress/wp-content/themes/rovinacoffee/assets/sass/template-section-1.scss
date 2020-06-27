@@ -12,6 +12,37 @@ section.sec-1 {
         top: 35%;
     }
 
+    .rec-left {
+        position: absolute;
+        top: -55px;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+        @include responsive(1440) {
+            display: none;
+        }
+    }
+
+    .flower-2 {
+        width: 818px;
+        height: 818px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 1;
+        img{
+            -webkit-animation: rotation 80s infinite linear;
+        }
+
+        @include responsive(1440) {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
     .flower {
         width: 668px;
         height: 668px;
@@ -21,7 +52,7 @@ section.sec-1 {
         right: 0;
         bottom: 0;
         margin: auto;
-        //-webkit-animation: rotation 50s infinite linear;
+        z-index: 3;
         @include responsive(1440) {
             width: 550px;
             height: 550px;
@@ -45,6 +76,7 @@ section.sec-1 {
         right: 0;
         bottom: -20%;
         text-align: right;
+        z-index: 9;
         @include responsive(768) {
             bottom: -12%;
         }
@@ -61,6 +93,7 @@ section.sec-1 {
         position: absolute;
         left: 0;
         bottom: -6%;
+        z-index: 99;
 
         img {
             @include responsive(768) {
@@ -114,6 +147,6 @@ section.sec-1 {
         -webkit-transform: rotate(0deg);
     }
     to {
-        -webkit-transform: rotate(359deg);
+        -webkit-transform: rotate(-359deg);
     }
 }
