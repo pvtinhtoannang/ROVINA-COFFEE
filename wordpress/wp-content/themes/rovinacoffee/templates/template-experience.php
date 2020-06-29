@@ -11,14 +11,16 @@ get_template_part('templates/template-after-header');
     <div class="template-experience">
         <div class="container">
             <!-- Nav pills -->
-            <ul class="nav nav-pills tab-experience">
+            <ul class="nav nav-pills tab-experience"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300">
                 <li class="nav-item">
                     <a class="nav-link active" data-toggle="pill" href="#tab1">CAFE PHA MÁY VÀ TÔI</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="pill" href="#tab2">HÀNH TRÌNH CAFE ROVINA</a>
                 </li>
-
             </ul>
 
             <!-- Tab panes -->
@@ -26,7 +28,10 @@ get_template_part('templates/template-after-header');
                 <div class="tab-pane active" id="tab1">
                     <div class="experience-top">
                         <div class="experience-top-item d-flex align-items-end justify-content-between flex-wrap">
-                            <div class="experience-information">
+                            <div class="experience-information"
+                                 data-aos="fade-right"
+                                 data-aos-duration="1000"
+                                 data-aos-delay="300">
                                 <h2 class="title-experience text-uppercase"><a href="#" title=""
                                                                                class="color-experience">Lợi thế khi
                                         nhượng
@@ -39,7 +44,10 @@ get_template_part('templates/template-after-header');
                                 <a href="#" title="Xem thêm"
                                    class="viewmore d-flex justify-content-center align-items-center">XEM THÊM</a>
                             </div>
-                            <div class="experience-image">
+                            <div class="experience-image"
+                                 data-aos="fade-left"
+                                 data-aos-duration="1000"
+                                 data-aos-delay="300">
                                 <a href="#" class="color-experience" title="Title">
                                     <img src="<?= $urlTheme ?>/assets/images/images-experience.jpg"
                                          alt="">
@@ -77,7 +85,10 @@ get_template_part('templates/template-after-header');
 
             <div class="list-news d-flex flex-wrap justify-content-between">
                 <?php for ($i = 1; $i < 7; $i++): ?>
-                    <div class="news-item news-item-experience">
+                    <div class="news-item news-item-experience"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"
+                         data-aos-delay="<?= $i * 1 ?>00">
                         <a href="#" title="" class="box-img">
                             <img src="<?= $urlTheme ?>/assets/images/news-experience-<?= $i ?>.jpg" alt="">
                         </a>

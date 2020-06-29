@@ -11,7 +11,10 @@ get_template_part('templates/template-after-header');
         <div class="container">
             <div
                 class="top-about-us d-flex justify-content-between align-items-center flex-sm-wrap flex-xs-wrap justify-content-sm-center justify-content-xs-center">
-                <div class="text-item text-item-left">
+                <div class="text-item text-item-left"
+                     data-aos="fade-right"
+                     data-aos-duration="1000"
+                     data-aos-delay="300">
                     <h2 class="title-about-us text-uppercase text-sm-center">Sứ mệnh</h2>
                     <div class="description text-sm-center text-xs-center">
                         CÔNG TY TNHH CÀ PHÊ ROBUSTA VIỆT NAM - Thương hiệu ROVINA COFFEE thành lập 2014 ra đời với mong
@@ -19,10 +22,16 @@ get_template_part('templates/template-after-header');
                         đúng chất đầy quyến rũ, cùng những không gian thưởng thức cà phê ấn tượng, riêng biệt.
                     </div>
                 </div>
-                <div class="img-item text-center">
+                <div class="img-item text-center"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="300">
                     <img src="<?= $urlTheme ?>/assets/images/about-us-img-middle.png" alt="">
                 </div>
-                <div class="text-item text-item-right text-right">
+                <div class="text-item text-item-right text-right"
+                     data-aos="fade-left"
+                     data-aos-duration="1000"
+                     data-aos-delay="300">
                     <h2 class="title-about-us text-uppercase">Sứ mệnh</h2>
                     <div class="description text-sm-center text-xs-center">
                         ROVINA chuyên cung cấp các dịch vụ: sản xuất và xuất khẩu cà phê hạt rang xay nguyên chất 100%
@@ -33,8 +42,14 @@ get_template_part('templates/template-after-header');
             </div>
 
             <div class="bottom-about-us text-center">
-                <h2 class="title-about-us text-uppercase text-center ">CAM kết</h2>
-                <div class="description">
+                <h2 class="title-about-us text-uppercase text-center"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="300">CAM kết</h2>
+                <div class="description"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="300">
                     Bằng tất cả tâm huyết của người sáng lập, sự nỗ lực của đội ngũ nhân viên giàu kinh nghiệm, luôn
                     luôn sáng tạo không ngừng, hệ thống máy móc thiết bị được đầu tư hiện đại, đồng bộ. ROVINA cam kết
                     đem đến những sản phẩm chất lượng và dịch vụ hoàn hảo nhất, tự tin mang lại sự hài lòng tuyệt đối
@@ -53,7 +68,10 @@ get_template_part('templates/template-after-header');
                 </div>
             </div>
         </div>
-        <div class="bg-bottom"></div>
+        <div class="bg-bottom"
+             data-aos="fade-right"
+             data-aos-duration="1000"
+             data-aos-delay="300"></div>
     </div>
 <?php
 get_footer();

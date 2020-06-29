@@ -50,7 +50,7 @@ jQuery(function ($) {
                         ease: Linear.easeNone,
                         autoAlpha: 1,
                         scale: 1
-                    })
+                    });
             }
 
             function sec_2_active() {
@@ -131,7 +131,6 @@ jQuery(function ($) {
                         delay: 1
                     }, "act3")
             }
-
             function sec_4_active() {
                 sec_4.staggerFrom(".sec-4 .title", 0.5, {
                     y: 40,
@@ -147,7 +146,6 @@ jQuery(function ($) {
                         scale: 0.8,
                     }, 0.1)
             }
-
             function sec_5_active() {
                 sec_5.staggerFrom(".sec-5 .title", 0.5, {
                     y: 40,
@@ -358,6 +356,7 @@ jQuery(function ($) {
 
 
     } catch (e) {
-        console.log(e);
+        // console.log(e);
     }
 });
+AOS.init();

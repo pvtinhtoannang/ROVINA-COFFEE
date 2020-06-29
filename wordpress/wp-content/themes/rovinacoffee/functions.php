@@ -15,6 +15,7 @@ function rovina_coffee_enqueue_scripts()
     wp_enqueue_style('reset', get_theme_file_uri('/assets/css/reset.min.css'), array(), $theme_version, 'all');
     wp_enqueue_style('style', get_theme_file_uri('/assets/css/style.css'), array(), $theme_version, 'all');
     wp_enqueue_style('fullscreenoverlay', get_theme_file_uri('/assets/lib/fullscreenoverlay/css/style1.css'), array(), $theme_version, 'all');
+    wp_enqueue_style('aos', get_theme_file_uri('/assets/lib/aos/aos.css'), array(), $theme_version, 'all');
     if (is_home()) {
         wp_enqueue_style('onepage-scroll', get_theme_file_uri('/assets/lib/onepage-scroll/onepage-scroll.css'), array(), 'v1.3.1', 'all');
     }
@@ -26,7 +27,7 @@ function rovina_coffee_enqueue_scripts()
     wp_enqueue_script('classie-js', get_theme_file_uri('/assets/lib/fullscreenoverlay/js/classie.js'), array(), $theme_version, true);
     wp_enqueue_script('fullscreenoverlay-js', get_theme_file_uri('/assets/lib/fullscreenoverlay/js/demo1.js'), array(), $theme_version, true);
     wp_enqueue_script('modernizr-js', get_theme_file_uri('/assets/lib/fullscreenoverlay/js/modernizr.custom.js'), array(), $theme_version, false);
-
+    wp_enqueue_script('aos-js', get_theme_file_uri('/assets/lib/aos/aos.js'), array(), $theme_version, false);
     wp_enqueue_script('gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js', array('jquery'), $theme_version, true);
     wp_enqueue_script('script', get_theme_file_uri('/assets/js/script.js'), array('jquery'), $theme_version, true);
 }

@@ -10,7 +10,10 @@ get_template_part('templates/template-after-header');
     <div class="template-find-shop">
         <div class="container">
             <!-- Nav pills -->
-            <ul class="nav nav-pills tab-experience">
+            <ul class="nav nav-pills tab-experience"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300">
                 <li class="nav-item">
                     <a class="nav-link active" data-toggle="pill" href="#tab1">DANH SÁCH QUÁN</a>
                 </li>
@@ -25,7 +28,10 @@ get_template_part('templates/template-after-header');
                 <div class="tab-pane active" id="tab1">
                     <div class="list-shop row">
                         <?php for ($i = 1; $i < 9; $i++): ?>
-                            <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="col-xs-12 col-sm-6 col-md-3"
+                                 data-aos="fade-up"
+                                 data-aos-duration="1000"
+                                 data-aos-delay="<?= $i * 1 ?>00">
                                 <div class="news-item news-item-find-shop">
                                     <a href="#" title="" class="box-img">
                                         <img src="<?= $urlTheme ?>/assets/images/shop-<?= $i ?>.jpg" alt="">
