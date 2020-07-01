@@ -47,15 +47,18 @@ section.sec-2 {
     }
 
     .machine {
-        top: 80px;
+        top: 180px;
         left: 0;
         right: 0;
         bottom: 0;
         position: absolute;
         text-align: center;
-        max-width: 244px;
+        max-width: 400px;
         max-height: 567px;
         margin: 0 auto;
+        @media screen and (max-width: 1700px) {
+            max-width: 300px;
+        }
     }
 
     .page-container {

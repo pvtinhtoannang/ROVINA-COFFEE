@@ -17,6 +17,9 @@ section.sec-5 {
 
     img {
       max-height: 577px;
+      @include responsive(1440) {
+        max-height: 400px;
+      }
     }
   }
 

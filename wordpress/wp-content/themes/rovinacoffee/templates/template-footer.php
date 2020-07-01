@@ -2,8 +2,8 @@
     <div class="left-area">
         <ul>
             <li><a href="/mo-quan">Mở quán <i class="fa fa-chevron-right"></i></a></li>
-            <li><span class="line"></span><a href="/san-pham"><span class="color">MUA MÁY PHA</span></a><span class="line">\</span></li>
-            <li>Hotline <span class="num"><a href="tel:0946888179">0946888179</a></span></li>
+            <li><span class="line"></span><a href="/san-pham"><span class="color">MUA SẢN PHẨM</span></a><span class="line">\</span></li>
+            <li>Hotline <span class="num"><a href="tel:0946888179">0903147175</a></span></li>
         </ul>
     </div>
     <div class="right-area">

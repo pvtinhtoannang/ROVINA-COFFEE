@@ -32,6 +32,7 @@ jQuery(function ($) {
                     .from(".sec-1 .btn-wrapper", 0.7, {
                         y: 40,
                         opacity: 0,
+                        rotation: 360,
                         autoAlpha: 0,
                         scale: 0.8,
                     }, "act1")
@@ -50,7 +51,7 @@ jQuery(function ($) {
                         ease: Linear.easeNone,
                         autoAlpha: 1,
                         scale: 1
-                    });
+                    })
             }
 
             function sec_2_active() {
@@ -131,6 +132,7 @@ jQuery(function ($) {
                         delay: 1
                     }, "act3")
             }
+
             function sec_4_active() {
                 sec_4.staggerFrom(".sec-4 .title", 0.5, {
                     y: 40,
@@ -146,6 +148,7 @@ jQuery(function ($) {
                         scale: 0.8,
                     }, 0.1)
             }
+
             function sec_5_active() {
                 sec_5.staggerFrom(".sec-5 .title", 0.5, {
                     y: 40,
@@ -354,9 +357,8 @@ jQuery(function ($) {
             }
         });
 
-
+        AOS.init();
     } catch (e) {
-        // console.log(e);
+        console.log(e);
     }
 });
-AOS.init();

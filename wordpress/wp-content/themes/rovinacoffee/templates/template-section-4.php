@@ -11,7 +11,7 @@
     <div class="page-container">
         <div class="sec-4-content">
             <h2 class="title">Góc trải nghiệm</h2>
-            <h3 class="sub-title">BÊN VỊ NGON NGUYÊN BẢN,<br> MỌI CẢM XÚC ĐỀU THĂNG HOA</h3>
+            <h3 class="sub-title">BÊN VỊ THẬT CÀ PHÊ VIỆT NAM,<br> MỌI CẢM XÚC ĐỀU THĂNG HOA</h3>
             <div class="rec-gr">
                 <div class="rec-wrapper">
                     <img src="<?= get_theme_file_uri('/assets/images/sec-4-cf-cup.jpg') ?>" alt="">

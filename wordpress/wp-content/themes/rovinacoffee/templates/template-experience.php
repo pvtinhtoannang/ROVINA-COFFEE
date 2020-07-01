@@ -16,10 +16,13 @@ get_template_part('templates/template-after-header');
                 data-aos-duration="1000"
                 data-aos-delay="300">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="pill" href="#tab1">CAFE PHA MÁY VÀ TÔI</a>
+                    <a class="nav-link active" data-toggle="pill" href="#tab1">Rovina và tôi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#tab2">HÀNH TRÌNH CAFE ROVINA</a>
+                    <a class="nav-link" data-toggle="pill" href="#tab2">Hành trình cà phê Rovina</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#tab3">Chia sẻ và kết nối</a>
                 </li>
             </ul>
 

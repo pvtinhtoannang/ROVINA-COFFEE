@@ -8,15 +8,12 @@ get_template_part('templates/template-after-header');
 ?>
     <section class="template-open-shop">
         <div class="container">
-            <div class="content-form"
-                 data-aos="fade-up"
-                 data-aos-duration="1000"
-                 data-aos-delay="300">
+            <div class="content-form">
                 <div class="content-form-sub">
                     <form class="content-open-shop template-get-coffee-machine">
                         <div class="title-legend text-center">
                             <h2 class="text-uppercase">ĐĂNG KÝ MỞ QUÁN - DÀNH CHO QUÁN ĐÃ KINH DOANH CÀ PHÊ</h2>
-                            <p>Chỉ áp dụng tại quán thuộc khu vực TP.HCM</p>
+                            <p>Chỉ áp dụng tại quán thuộc Việt Nam</p>
                         </div>
                         <div class="row group-input-open-shop">
                             <div class="col-xs-12 col-sm-6">
@@ -57,10 +54,10 @@ get_template_part('templates/template-after-header');
                                 <input type="text" class="input-type-2" value="" name="stt" placeholder="Số khách / ngày">
                             </div>
                             <div class="col-xs-12 col-sm-4">
-                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Số ly cafe / ngày">
+                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Số ly cà phê / ngày">
                             </div>
                             <div class="col-xs-12 col-sm-6">
-                                <input type="text" placeholder="Loại café đang dùng" class="input-type-2">
+                                <input type="text" placeholder="Loại cà phê đang dùng" class="input-type-2">
                             </div>
                             <div class="col-xs-12 col-sm-6">
                                 <select class="input-type-2" name="" id="">
@@ -71,8 +68,8 @@ get_template_part('templates/template-after-header');
                             </div>
                             <div class="col-xs-12 col-sm-12">
                                 <select class="input-type-2" name="" id="">
-                                    <option value="">Vì sao biết đến Café Pha Máy?</option>
-                                    <option value="">Vì sao biết đến Café Pha Máy?</option>
+                                    <option value="">Vì sao biết đến Cà phê Pha Máy?</option>
+                                    <option value="">Vì sao biết đến Cà phê Pha Máy?</option>
                                 </select>
 
                             </div>

@@ -10,6 +10,7 @@ section.sec-1 {
 
     .page-container {
         top: 35%;
+        z-index: 999;
     }
 
     .rec-left {
@@ -33,7 +34,8 @@ section.sec-1 {
         bottom: 0;
         margin: auto;
         z-index: 1;
-        img{
+
+        img {
             -webkit-animation: rotation 80s infinite linear;
         }
 
@@ -74,17 +76,25 @@ section.sec-1 {
     .machine {
         position: absolute;
         right: 0;
-        bottom: -20%;
+        bottom: 0;
         text-align: right;
         z-index: 9;
-        @include responsive(768) {
-            bottom: -12%;
-        }
 
         img {
             width: auto;
+            max-height: 780px;
+            @include responsive(1700) {
+                max-height: 650px;
+                max-width: 450px;
+            }
+            @include responsive(1366) {
+                max-width: 70%;
+            }
             @include responsive(768) {
                 max-width: 50%;
+            }
+            @include responsive(580) {
+                max-width: 40%;
             }
         }
     }
@@ -92,12 +102,23 @@ section.sec-1 {
     .cup {
         position: absolute;
         left: 0;
-        bottom: -6%;
+        bottom: 0;
         z-index: 99;
 
         img {
+            max-height: 550px;
+            margin-left: 35px;
+            @include responsive(1700) {
+                max-width: 80%;
+            }
+            @include responsive(1440) {
+                max-width: 70%;
+            }
             @include responsive(768) {
-                max-width: 60%;
+                max-width: 50%;
+            }
+            @include responsive(580) {
+                max-width: 35%;
             }
         }
     }
@@ -134,10 +155,7 @@ section.sec-1 {
         }
 
         .btn-wrapper {
-            margin-top: 62px;
-            @include responsive(480) {
-                margin-top: 30px;
-            }
+            margin-bottom: 30px;
         }
     }
 }
