@@ -7,7 +7,7 @@
         <h1 class="title text-uppercase text-center"><?= get_the_title() ?></h1>
         <?php if (is_page('mo-quan')): ?>
             <div class="sub-title">
-                SỐ CỬA HÀNG ĐANG ĐĂNG KÝ KINH DOANH CAFE PHA MÁY
+                SỐ CỬA HÀNG ĐANG ĐĂNG KÝ KINH DOANH CÀ PHÊ ROVINA
             </div>
             <div class="number">
                 96
@@ -29,8 +29,8 @@
             BẠN ĐANG KINH DOANH CÀ PHÊ?
         </p>
         <div class="list-button-question d-flex justify-content-center ">
-            <button class="button-question">CÓ</button>
-            <button class="button-question">KHÔNG</button>
+            <button class="button-question btn-yes">CÓ</button>
+            <button class="button-question btn-no">KHÔNG</button>
         </div>
     </div>
 <?php endif; ?>

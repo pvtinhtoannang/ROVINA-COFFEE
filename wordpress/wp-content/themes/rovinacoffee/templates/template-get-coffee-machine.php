@@ -3,7 +3,7 @@
         <fieldset>
             <legend class="text-center title-legend">
                 <h2>THÔNG TIN MUA MÁY CAFE</h2>
-                <p>Chỉ áp dụng tại quán thuộc khu vực TP.HCM</p>
+                <p>Chỉ áp dụng tại quán thuộc khu vực Việt Nam</p>
             </legend>
             <form class="template-get-coffee-machine" action="">
                 <div class="row">
@@ -23,10 +23,7 @@
                             <option value="">Thành phố Cần Thơ</option>
                         </select>
                         <input type="text" placeholder="Điện thoại" class="input-type-2">
-                        <select class="input-type-2"  name="" id="">
-                            <option value="">Cá nhân</option>
-                            <option value="">Doanh nghiệp</option>
-                        </select>
+
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <input type="text" class="input-type-2" value="" name="stt" placeholder="Địa chỉ nhận hàng">
@@ -35,7 +32,13 @@
                             <option value="">Quận 4</option>
                         </select>
                         <input type="text" placeholder="Email" class="input-type-2">
-                        <input type="text" placeholder="Số lượng máy" class="input-type-2">
+                    </div>
+                    <div class="col-xs-12 col-sm-12">
+
+                        <select class="input-type-2"  name="" id="">
+                            <option value="">Cá nhân</option>
+                            <option value="">Doanh nghiệp</option>
+                        </select>
                     </div>
                     <div class="col-xs-12 col-sm-12">
                         <textarea name="" id="" class="input-type-1" cols="30" rows="10" placeholder="Ghi chú"></textarea>

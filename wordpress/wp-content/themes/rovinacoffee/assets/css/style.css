@@ -1133,7 +1133,7 @@ section.sec-5 .page-container .sec-5-content .btn-wrapper a:hover {
   z-index: 100;
 }
 .header-wrapper .overlay {
-  background: url(../images/flower-nav.png) center center no-repeat, #000;
+  background: url(../images/flower-nav.png) center center no-repeat, rgba(0, 0, 0, 0.8);
   z-index: 999;
 }
 .header-wrapper .overlay.open nav .logo-nav, .header-wrapper .overlay.open nav ul {
@@ -1755,7 +1755,7 @@ section.sec-5 .page-container .sec-5-content .btn-wrapper a:hover {
   width: fit-content;
   width: -moz-fit-content;
   line-height: 2;
-  padding: 0 50px;
+  padding: 0 25px;
 }
 @media (max-width: 600px) {
   .template-get-coffee-machine .title-legend {

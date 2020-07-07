@@ -358,6 +358,15 @@ jQuery(function ($) {
         });
 
         AOS.init();
+
+        $('.btn-no').click(function () {
+            $('.select-type-shop').css('display','none');
+            $('.content-open-shop .title-legend h2').text('ĐĂNG KÝ MỞ QUÁN - DÀNH CHO QUÁN CHƯA KINH DOANH CÀ PHÊ');
+        });
+        $('.btn-yes').click(function () {
+            $('.select-type-shop').css('display','block');
+            $('.content-open-shop .title-legend h2').text('ĐĂNG KÝ MỞ QUÁN - DÀNH CHO QUÁN ĐÃ KINH DOANH CÀ PHÊ');
+        });
     } catch (e) {
         console.log(e);
     }

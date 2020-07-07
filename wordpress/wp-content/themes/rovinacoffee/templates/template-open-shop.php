@@ -34,7 +34,7 @@ get_template_part('templates/template-after-header');
                                 <input type="text" placeholder="Họ và tên của chủ quán" class="input-type-2">
                             </div>
                             <div class="col-xs-12 col-sm-12">
-                                <select class="input-type-2" name="" id="">
+                                <select class="input-type-2 select-type-shop" name="" id="" style="display: block">
                                     <option value="">Loại hình quán</option>
                                     <option value="">Loại 1</option>
                                     <option value="">Loại 2</option>
@@ -68,8 +68,8 @@ get_template_part('templates/template-after-header');
                             </div>
                             <div class="col-xs-12 col-sm-12">
                                 <select class="input-type-2" name="" id="">
-                                    <option value="">Vì sao biết đến Cà phê Pha Máy?</option>
-                                    <option value="">Vì sao biết đến Cà phê Pha Máy?</option>
+                                    <option value="">Vì sao biết đến Cà phê Rovina?</option>
+                                    <option value="">Vì sao biết đến Cà phê Rovina?</option>
                                 </select>
 
                             </div>

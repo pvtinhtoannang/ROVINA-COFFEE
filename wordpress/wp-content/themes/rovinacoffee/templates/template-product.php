@@ -24,7 +24,7 @@ get_template_part('templates/template-after-header');
                                 </div>
                             </div>
                             <div class="information">
-                                <h3 class="title"><a href="#">Cafe Rovina123</a></h3>
+                                <h3 class="title"><a href="#">Cà phê Rovina123</a></h3>
                                 <p class="description">25.000 <sup>đ</sup>/100g</p>
                             </div>
                         </div>

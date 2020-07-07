@@ -1,4 +1,7 @@
 <?php
+require_once 'Mobile_Detect.php';
+global $detect;
+$detect = new Mobile_Detect();
 add_theme_support('post-thumbnails');
 add_theme_support('title-tag');
 add_theme_support('automatic-feed-links');

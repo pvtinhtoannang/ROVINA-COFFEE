@@ -109,7 +109,7 @@ get_template_part('templates/template-after-header');
                         <br>
                         NGUYÊN BẢN</h2>
                     <div class="description text-right">
-                        Trong mỗi viên rang xay Cafe Pha máy từ Rovina Coffee là sự lưu giữ trọn vẹn hương vị tứ quý
+                        Trong mỗi viên rang xay Cà phê Pha máy từ Rovina Coffee là sự lưu giữ trọn vẹn hương vị tứ quý
                         “thơm–
                         đen – đậm – đắng” với 100% cà phê nguyên chất.
                         <br>
@@ -143,12 +143,12 @@ get_template_part('templates/template-after-header');
                     <h2 class="title-machine-journey text-uppercase text-left">MỘT NÚT BẤM <br>
                         THĂNG HOA TRẢI NGHIỆM</h2>
                     <div class="description">
-                        <p>Chỉ cần cho 1 viên rang xay Cafe Pha máy vào Phin Điện, bấm một nút duy nhất, bạn sẽ
+                        <p>Chỉ cần cho 1 viên rang xay Cà phê Pha máy vào Phin Điện, bấm một nút duy nhất, bạn sẽ
                             có ngay ly
                             cà phê 100% nguyên chất, vẹn tròn hương vị nguyên bản, đậm ngon đúng chất pha phin
                             kiểu
                             Việt.</p>
-                        <p>Phin Điện Cafe Pha máy dựa trên công nghệ cà phê pha máy hiện đại của thế giới kết
+                        <p>Phin Điện Cà phê Pha máy dựa trên công nghệ cà phê pha máy hiện đại của thế giới kết
                             hợp với bí
                             quyết pha phin độc đáo của Việt Nam.</p>
                     </div>
@@ -182,7 +182,7 @@ get_template_part('templates/template-after-header');
                      data-aos="fade-up"
                      data-aos-duration="1000"
                      data-aos-delay="300">
-                    Phin Điện Cafe Pha máy là sự kết hợp hoàn hảo giữa chất lượng và sự tiện lợi để mang đến
+                    Phin Điện Cà phê Pha máy là sự kết hợp hoàn hảo giữa chất lượng và sự tiện lợi để mang đến
                     ly cà phê
                     đậm đà bản sắc Việt, cho hàng triệu người yêu cà phê Việt Nam trên thế giới được thưởng
                     thức mỗi

@@ -6,7 +6,7 @@
   z-index: 100;
 
   .overlay {
-    background: url(../images/flower-nav.png) center center no-repeat, #000;
+    background: url(../images/flower-nav.png) center center no-repeat, rgba(0, 0, 0, .8);
     z-index: 999;
 
     &.open {

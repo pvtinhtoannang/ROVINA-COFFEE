@@ -39,7 +39,7 @@ get_template_part('templates/template-after-header');
                     <div class="description text-sm-center text-xs-center">
                         ROVINA chuyên cung cấp các dịch vụ: sản xuất và xuất khẩu cà phê hạt rang xay nguyên chất 100%
                         chuyên cho pha phin và pha máy, setup quầy bar cà phê, đào tạo nhân viên pha chế, cung cấp máy
-                        móc và nguyên liệu pha chế, tư vấn thiết kế, thi công quán cafe trọn gói.…
+                        móc và nguyên liệu pha chế, tư vấn thiết kế, thi công quán cà phê trọn gói.…
                     </div>
                 </div>
             </div>

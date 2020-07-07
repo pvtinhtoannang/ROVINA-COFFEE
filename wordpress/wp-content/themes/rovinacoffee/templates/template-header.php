@@ -24,7 +24,8 @@
             </div>
         </div>
     </div>
-    <div class="overlay overlay-hugeinc">
+    <?php global $detect;?>
+    <div class="overlay overlay-hugeinc <?php if($detect->isMobile()): ?> open <?php endif;?>">
         <button type="button" class="overlay-close">Close</button>
         <nav>
             <div class="logo-nav">

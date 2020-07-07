@@ -1,6 +1,6 @@
 <section class="sec-3">
     <div class="cup">
-        <img src="<?= get_theme_file_uri('/assets/images/Lycafe.png') ?>" alt="">
+        <img src="<?= get_theme_file_uri('/assets/images/cafe2.png') ?>" alt="">
     </div>
     <div class="page-container">
         <div class="sec-3-content">
