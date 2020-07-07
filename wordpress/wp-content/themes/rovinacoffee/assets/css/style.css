@@ -974,6 +974,11 @@ section.sec-5 .machine img {
     max-height: 400px;
   }
 }
+@media (max-width: 600px) {
+  section.sec-5 .machine img {
+    max-height: 150px;
+  }
+}
 section.sec-5 .page-container {
   top: 15%;
 }

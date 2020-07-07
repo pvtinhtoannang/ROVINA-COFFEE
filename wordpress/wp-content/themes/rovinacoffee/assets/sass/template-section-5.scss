@@ -20,6 +20,9 @@ section.sec-5 {
       @include responsive(1440) {
         max-height: 400px;
       }
+      @include responsive(600) {
+        max-height: 150px;
+      }
     }
   }
 
