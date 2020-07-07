@@ -13,32 +13,30 @@ get_template_part('templates/template-after-header');
                     <form class="content-open-shop template-get-coffee-machine">
                         <div class="title-legend text-center">
                             <h2 class="text-uppercase">ĐĂNG KÝ MỞ QUÁN - DÀNH CHO QUÁN ĐÃ KINH DOANH CÀ PHÊ</h2>
-                            <p>Chỉ áp dụng tại quán thuộc Việt Nam</p>
                         </div>
                         <div class="row group-input-open-shop">
                             <div class="col-xs-12 col-sm-6">
-                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Tên quán">
-                                <select class="input-type-2" name="" id="">
-                                    <option value="">Thành phố Hồ Chí Minh</option>
-                                    <option value="">Thành phố Cần Thơ</option>
-                                </select>
-                                <input type="text" placeholder="Họ và tên của chủ quán" class="input-type-2">
-
+                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Họ và tên">
                             </div>
                             <div class="col-xs-12 col-sm-6">
-                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Địa chỉ quán của bạn">
+                                <input type="text" placeholder="Địa chỉ quán của bạn" class="input-type-2">
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
                                 <select class="input-type-2" name="" id="">
-                                    <option value="">Quận 3</option>
+                                    <option value="">Tỉnh / Thành phố</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <select class="input-type-2" name="" id="">
+                                    <option value="">Quận / Huyện</option>
                                     <option value="">Quận 4</option>
                                 </select>
-                                <input type="text" placeholder="Họ và tên của chủ quán" class="input-type-2">
                             </div>
-                            <div class="col-xs-12 col-sm-12">
-                                <select class="input-type-2 select-type-shop" name="" id="" style="display: block">
-                                    <option value="">Loại hình quán</option>
-                                    <option value="">Loại 1</option>
-                                    <option value="">Loại 2</option>
-                                </select>
+                            <div class="col-xs-12 col-sm-6">
+                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Email">
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Số điện thoại">
                             </div>
                         </div>
 
@@ -47,26 +45,40 @@ get_template_part('templates/template-after-header');
                             <p>Ước tính trung bình đến hiện tại</p>
                         </div>
                         <div class="row group-input-open-shop">
-                            <div class="col-xs-12 col-sm-4">
-                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Số bàn">
+                            <div class="col-xs-12 col-sm-12">
+                                <select class="input-type-2 select-type-shop" name="" id="" style="display: block">
+                                    <option value="">Loại hình quán</option>
+                                    <option value="">Loại 1</option>
+                                    <option value="">Loại 2</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 dientich" style="display: none">
+                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Diện tích" >
+                            </div>
+                            <div class="col-xs-12 col-sm-4 soban1">
+                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Số bàn" >
+                            </div>
+                            <div class="col-xs-12 col-sm-12 select-type-shop-no" style="display: none">
+                                <select class="input-type-2 " name="" id="" >
+                                    <option value="">Loại hình quán</option>
+                                    <option value="">Loại 1</option>
+                                    <option value="">Loại 2</option>
+                                </select>
                             </div>
                             <div class="col-xs-12 col-sm-4">
-                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Số khách / ngày">
+                                <input type="text" class="input-type-2 select-type-shop" value="" name="stt" placeholder="Số khách / ngày"  style="display: block">
                             </div>
                             <div class="col-xs-12 col-sm-4">
-                                <input type="text" class="input-type-2" value="" name="stt" placeholder="Số ly cà phê / ngày">
-                            </div>
-                            <div class="col-xs-12 col-sm-6">
-                                <input type="text" placeholder="Loại cà phê đang dùng" class="input-type-2">
+                                <input type="text" class="input-type-2 select-type-shop" value="" name="stt" placeholder="Số ly cà phê / ngày"  style="display: block">
                             </div>
                             <div class="col-xs-12 col-sm-6">
                                 <select class="input-type-2" name="" id="">
-                                    <option value="">Họ và tên chủ quán</option>
-                                    <option value="">Họ và tên chủ quán</option>
+                                    <option value="">Chọn loại cà phê đang chùng</option>
+                                    <option value=""></option>
                                 </select>
-
                             </div>
-                            <div class="col-xs-12 col-sm-12">
+
+                            <div class="col-xs-12 col-sm-6">
                                 <select class="input-type-2" name="" id="">
                                     <option value="">Vì sao biết đến Cà phê Rovina?</option>
                                     <option value="">Vì sao biết đến Cà phê Rovina?</option>

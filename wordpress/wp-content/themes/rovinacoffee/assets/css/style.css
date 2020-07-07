@@ -379,6 +379,16 @@ body {
   max-width: 750px;
   margin: auto;
 }
+@media (max-width: 1660px) {
+  .template-about-us .bottom-about-us .description {
+    max-width: 680px;
+  }
+}
+@media (max-width: 1400px) {
+  .template-about-us .bottom-about-us .description {
+    max-width: 660px;
+  }
+}
 .template-about-us .bg-bottom {
   background-image: url(../images/about-us-img-bottom.png);
   position: absolute;
@@ -390,6 +400,16 @@ body {
   max-height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
+}
+@media (max-width: 1660px) {
+  .template-about-us .bg-bottom {
+    width: 340px;
+  }
+}
+@media (max-width: 1400px) {
+  .template-about-us .bg-bottom {
+    width: 260px;
+  }
 }
 
 section.sec-1 {
@@ -708,6 +728,11 @@ section.sec-3 .cup {
 section.sec-3 .page-container {
   top: 14%;
 }
+@media (max-width: 600px) {
+  section.sec-3 .page-container {
+    top: 16%;
+  }
+}
 section.sec-3 .page-container .sec-3-content {
   text-align: center;
 }
@@ -771,10 +796,16 @@ section.sec-4 .machine {
   left: 60px;
   bottom: 0;
 }
+@media (max-width: 600px) {
+  section.sec-4 .machine {
+    display: none;
+  }
+}
 section.sec-4 .cup {
   position: absolute;
   right: 30px;
   bottom: 0;
+  z-index: 2;
 }
 section.sec-4 .flower {
   width: 1159px;
@@ -798,6 +829,11 @@ section.sec-4 .flower img {
 }
 section.sec-4 .page-container {
   top: 20%;
+}
+@media (max-width: 600px) {
+  section.sec-4 .page-container {
+    top: 16%;
+  }
 }
 section.sec-4 .page-container .sec-4-content {
   text-align: center;

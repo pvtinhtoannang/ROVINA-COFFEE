@@ -183,7 +183,7 @@ jQuery(function ($) {
                 sec_5_active();
                 $(".main").onepage_scroll({
                     sectionContainer: "section",
-                    responsiveFallback: 600,
+                    responsiveFallback: false,
                     loop: false,
                     easing: "ease",
                     animationTime: 1000,
@@ -197,161 +197,6 @@ jQuery(function ($) {
                     },
                     afterMove: function (index) {
 
-                        // if ($('section.sec-2').hasClass('active')) {
-                        //     gsap.fromTo(".sec-2 .rec-top img", {y: 300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-2 .rec-bottom img", {y: -300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-2 .machine img", {y: -300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-2 .sec-2-content .title", {y: -300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-2 .sec-2-content .sub-title", {y: -300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-2 .sec-2-content .description", {y: 200, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-2 .sec-2-content .btn-wrapper", {y: 300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        // }
-                        // if ($('section.sec-3').hasClass('active')) {
-                        //     gsap.fromTo(".sec-3 .cup img", {y: 300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-3 .sec-3-content .title", {y: -300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-3 .sec-3-content .sub-title", {y: -300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-3 .sec-3-content .number", {y: -300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-3 .sec-3-content .text", {y: 300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-3 .sec-3-content .btn-wrapper", {y: 300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        // }
-                        // if ($('section.sec-4').hasClass('active')) {
-                        //
-                        //     gsap.fromTo(".sec-4 .cup img", {x: -300, opacity: 0}, {
-                        //         x: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-4 .machine img", {x: 300, opacity: 0}, {
-                        //         x: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-4 .flower img", {y: 300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //
-                        //     gsap.fromTo(".sec-4 .sec-4-content .title", {y: 300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-4 .sec-4-content .sub-title", {y: 300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //
-                        //     gsap.fromTo(".sec-4 .sec-4-content .btn-wrapper", {y: 300, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        // }
-                        // if ($('section.sec-5').hasClass('active')) {
-                        //     gsap.fromTo(".sec-5 .machine img", {y: 100, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-5 .sec-5-content .title .title-left", {x: 300, opacity: 0}, {
-                        //         x: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-5 .sec-5-content .title .title-right", {x: -300, opacity: 0}, {
-                        //         x: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-5 .sec-5-content .sub-title", {y: 200, opacity: 0}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        //     gsap.fromTo(".sec-5 .sec-5-content .btn-wrapper", {y: 250, opacity: 1}, {
-                        //         y: 0,
-                        //         opacity: 1,
-                        //         ease: "slow",
-                        //         duration: 2
-                        //     });
-                        // }
                     }
                 });
             }
@@ -360,12 +205,19 @@ jQuery(function ($) {
         AOS.init();
 
         $('.btn-no').click(function () {
-            $('.select-type-shop').css('display','none');
             $('.content-open-shop .title-legend h2').text('ĐĂNG KÝ MỞ QUÁN - DÀNH CHO QUÁN CHƯA KINH DOANH CÀ PHÊ');
+            $('.soban1').addClass('col-md-6');
+            $('.dientich').css('display', 'block');
+            $('.select-type-shop-no').css('display', 'block');
+            $('.select-type-shop').css('display', 'none');
+
         });
         $('.btn-yes').click(function () {
-            $('.select-type-shop').css('display','block');
             $('.content-open-shop .title-legend h2').text('ĐĂNG KÝ MỞ QUÁN - DÀNH CHO QUÁN ĐÃ KINH DOANH CÀ PHÊ');
+            $('.soban1').removeClass('col-md-6');
+            $('.dientich').css('display', 'none');
+            $('.select-type-shop-no').css('display', 'none');
+            $('.select-type-shop').css('display', 'block');
         });
     } catch (e) {
         console.log(e);

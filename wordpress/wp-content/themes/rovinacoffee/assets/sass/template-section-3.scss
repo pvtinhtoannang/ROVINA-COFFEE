@@ -19,6 +19,9 @@ section.sec-3 {
 
     .page-container {
         top: 14%;
+        @include responsive(600) {
+            top: 16%;
+        }
 
         .sec-3-content {
             text-align: center;

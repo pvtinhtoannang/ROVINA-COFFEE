@@ -25,7 +25,7 @@
         </div>
     </div>
     <?php global $detect;?>
-    <div class="overlay overlay-hugeinc <?php if($detect->isMobile()): ?> open <?php endif;?>">
+    <div class="overlay overlay-hugeinc">
         <button type="button" class="overlay-close">Close</button>
         <nav>
             <div class="logo-nav">
@@ -34,7 +34,7 @@
             <ul>
                 <li><a href="/">Trang chủ</a></li>
                 <li><a href="/ve-chung-toi">Về chúng tôi</a></li>
-                <li><a href="/hanh-trinh-cafe-pha-may">Hành trình Cà phê</a></li>
+                <li><a href="/hanh-trinh-ca-phe-pha-may">Hành trình Cà phê</a></li>
                 <li><a href="/goc-trai-nghiem">Góc trải nghiệm</a></li>
                 <li><a href="/san-pham">Sản phẩm</a></li>
                 <li><a href="/tim-quan">Tìm quán</a></li>

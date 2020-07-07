@@ -6,12 +6,16 @@ section.sec-4 {
         position: absolute;
         left: 60px;
         bottom: 0;
+        @include responsive(600) {
+            display: none;
+        }
     }
 
     .cup {
         position: absolute;
         right: 30px;
         bottom: 0;
+        z-index: 2;
     }
 
     .flower {
@@ -36,6 +40,9 @@ section.sec-4 {
 
     .page-container {
         top: 20%;
+        @include responsive(600) {
+            top: 16%;
+        }
 
         .sec-4-content {
             text-align: center;
